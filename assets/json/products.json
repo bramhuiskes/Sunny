@@ -1,5 +1,5 @@
+
 {
-  "socks": {
     "100": {
       "ProductName": "Blue Stripe socks",
       "ProductID": 100,
@@ -112,4 +112,3 @@
     }
 
   }
-}
