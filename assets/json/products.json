@@ -48,7 +48,7 @@
       "ProductName": "Yellow Stripe socks",
       "ProductID": 104,
       "ProductProperties": {
-        "Color": "Blue",
+        "Color": "Yellow",
         "Size": 37,
         "Price": 3.99,
         "Collection": "Stripes"
@@ -103,7 +103,7 @@
       "ProductName": "Yellow Classic socks",
       "ProductID": 204,
       "ProductProperties": {
-        "Color": "Blue",
+        "Color": "Yellow",
         "Size": 37,
         "Price": 3.99,
         "Collection": "Classic"
