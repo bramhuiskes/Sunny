@@ -17,9 +17,6 @@
 .shopping-cart.empty .btn{
     margin-top: 25px;
 }
-.shopping-cart.filled{
-
-}
 .shopping-cart.filled .item{
     border: 1px solid #F15A39;
     margin-bottom: 20px;
