@@ -1,3 +1,14 @@
+@font-face {
+    font-family: "NexaLight";
+    src: url(../fonts/nexa-light.otf);
+}
+
+@font-face {
+    font-family: "NexaBold";
+    src: url(../fonts/nexa-bold.otf);
+}
+
+
 .temp-product{
     border: 1px solid orange;
     width: fit-content;
@@ -9,12 +20,12 @@
 }
 
 .temp-product p:nth-child(2){
-    font-family: "Nexa Bold";
+    font-family: "NexaBold";
     font-size: larger;
 }
 
 .temp-product p:nth-child(3){
-    font-family: "Nexa Light";
+    font-family: "NexaLight";
 }
 
 *{
