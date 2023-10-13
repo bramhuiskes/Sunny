@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+}
+.contact-container{
+    width: 791px;
+    height: 761px;
+    margin-top: 50px;
+    display: flex;
+    margin-bottom: 150px
+}
+.contact-container-left-side{
+    margin-left: 5%;
+}
+.contact-container .contact-hello{
+    font-size: 78pt;
+    width: 440px;
+    height: 194px;
+    margin-bottom: 60px;
+}
+.contact-container .contact-info{
+    font-size: 14pt;
+    width: 420px;
+    height: 245px;
+}
+.contact-container-left-side img{
+    width: 50%;
+    height: 20%;
+    position: relative;
+}
+.contact-container-right-side{
+    margin-left: 200px;
+    display: flex;
+}
+.contact-container-right-side .sunny-socks-red{
+    width: 400px;
+    height: 320px;
+}
+.contact-container-right-side .sunny-socks-uni-green-1{
+    margin-left: 10px;
+    width: 100%;
+    height: 75%;
+}
