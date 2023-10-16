@@ -13,10 +13,12 @@
     border: 1px solid orange;
     width: fit-content;
     padding: 24px;
+    max-height: 458px;
 }
 
 .temp-product img{
     width: 200px;
+
 }
 
 .temp-product p:nth-child(2){

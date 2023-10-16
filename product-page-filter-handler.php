@@ -6,7 +6,7 @@ function generateProductPage()
 
     foreach($productArray as $key=>$value)
     {
-        echo"<div class=\"temp-product\"><img src=" . $value['ProductThumbnail'] . " alt=\"Intel sok\">";
+        echo"<div class=\"product\"><img src=" . $value['ProductThumbnail'] . " alt=\"Intel sok\">";
         echo"<p>" . $value['ProductName'] . "</p>";
         echo"<p>" . $value['ProductProperties']['Price'] . "</p>";
         echo"<input type=\"hidden\" value=" . $key ."></div>";
