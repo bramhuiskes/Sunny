@@ -37,21 +37,21 @@ function getFilterResult()
         $queriedProducts = array();
 
         if($color != null && $collection != null){
-            foreach($products as $key=>$value){
+            foreach($products as $value){
                 if($value['ProductProperties']['Color'] == $color && $value['ProductProperties']['Collection'] == $collection){
                     array_push($queriedProducts, $value);
                 }
             }
         }
         elseif($color != null){
-            foreach($products as $key=>$value){
+            foreach($products as $value){
                 if($value['ProductProperties']['Color'] == $color){
                     array_push($queriedProducts, $value);
                 }
             }
         }
         elseif($collection != null){
-            foreach($products as $key=>$value){
+            foreach($products as $value){
                 if($value['ProductProperties']['Collection'] == $collection){
                     array_push($queriedProducts, $value);
                 }
