@@ -4,13 +4,20 @@ function generateProductPage()
 {
     $productArray = getFilterResult();
 
-    foreach($productArray as $key=>$value)
-    {
-        echo"<div class=\"product\"><img src=" . $value['ProductThumbnail'] . " alt=\"Intel sok\">";
-        echo"<p>" . $value['ProductName'] . "</p>";
-        echo"<p>" . $value['ProductProperties']['Price'] . "</p>";
-        echo"<input type=\"hidden\" value=" . $key ."></div>";
+    $indexOffset = 0;
+
+    if(isset($_GET['page'])){
+        if($_GET['page'] == 2){
+            $indexOffset = 6;
+        }
     }
+    
+        foreach (array_slice($productArray, $indexOffset, 6) as $key => $value) {
+            echo "<div class=\"product\"><img src=" . $value['ProductThumbnail'] . " alt=\"Intel sok\">";
+            echo "<p>" . $value['ProductName'] . "</p>";
+            echo "<p>" . $value['ProductProperties']['Price'] . "</p>";
+            echo "<input type=\"hidden\" value=" . $key . "></div>";
+        }
 }
 
 function getFilterResult()
