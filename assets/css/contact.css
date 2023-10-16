@@ -44,7 +44,7 @@
 .contact-message-container{
     display: flex;
     background-color: #212A17;
-    margin: 50px;
+    margin-left: 50px;
     width: 1400px;
     height: 700px;
     flex-direction: column;
@@ -114,6 +114,9 @@
 .contact-message-container .contact-message:focus{
     outline: none !important;
     border: 1px solid #F15A39;
+}
+.contact-message-container .contact-submit:hover{
+    cursor: pointer;
 }
 ::placeholder{
     color: #F15A39;
