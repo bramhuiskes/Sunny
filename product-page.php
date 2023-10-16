@@ -32,8 +32,8 @@
             generateProductPage();
             ?>
                     <form method="get" class="paging-nav">
-            <input type="submit" name="page" value="1">
-            <input type="submit" name="page" value="2">
+            <input type="submit" name="page" value="1" class="page-button">
+            <input type="submit" name="page" value="2" class="page-button">
         </form>
         </div>
 
