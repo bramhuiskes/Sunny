@@ -16,6 +16,7 @@
     font-family: "NexaBold", sans-serif;
     font-size: 33px;
     color: #443C32;
+    margin-top: 15px;
 }
 
 .flex-container{
@@ -36,7 +37,7 @@ form{
 }
 
 .product{
-    border: 1px solid orange;
+    border: 1px solid #443C32;
     width: fit-content;
     padding: 24px;
     max-height: 458px;
@@ -82,4 +83,20 @@ form{
     justify-content: center;
     align-items: center;
     width: 750px;
+}
+
+.filter-items{
+    border: none;
+    font-family: Nexa Light, sans-serif;
+    background-color: #F0EBE3;
+    font-size: 20px;
+    margin-left: 15px;
+    margin-top: 10px;
+    color: #443C32;
+    cursor: pointer;
+    text-align: left;
+}
+
+body{
+    background-color: #F0EBE3;
 }
