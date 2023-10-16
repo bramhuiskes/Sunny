@@ -1,61 +1,19 @@
-.item{
-    padding: 50px;
-    border: 1px solid;
-    flex: 0 0 20%;
-    text-align: center;
-    font-size: 14px;
-    color: #443C32;
+@font-face {
+    font-family: "NexaLight";
+    src: url(../fonts/nexa-light.otf);
 }
 
-.product-prices{
-    margin-left: -225px;
-    font-family: Nexa Light, sans-serif;
-}
-
-.titel-uni-red{
-    font-family: Nexa Bold, sans-serif;
-    margin-left: -92px;
-}
-
-.titel-uni-pink{
-    font-family: Nexa Bold, sans-serif;
-    margin-left: -90px;
-}
-
-.titel-uni-blue{
-    font-family: Nexa Bold, sans-serif;
-    margin-left: -86px;
-}
-
-.titel-uni-yellow{
-    font-family: Nexa Bold, sans-serif;
-    margin-left: -60px;
-}
-
-.titel-uni-green{
-    font-family: Nexa Bold, sans-serif;
-    margin-left: -73px;
-}
-
-.titel-stripes-blue{
-    font-family: Nexa Bold, sans-serif;
-    margin-left: -50px;
+@font-face {
+    font-family: "NexaBold";
+    src: url(../fonts/nexa-bold.otf);
 }
 
 .product-page{
     display: flex;
     align-items: normal;
 }
-
-.filter-collumn{
-    margin-left: 150px;
-    margin-top: 80px;
-    display: flex;
-    flex-direction: column;
-}
-
 .headings-filters{
-    font-family: Nexa Bold, sans-serif;
+    font-family: "NexaBold", sans-serif;
     font-size: 33px;
     color: #443C32;
 }
@@ -67,24 +25,7 @@
     margin-left: 200px;
     margin-top: 100px;
     max-width: 750px;
-}
-
-.filters{
-    font-family: Nexa Light, sans-serif;
-    font-size: 20px;
-    text-decoration: none;
-    color: #443C32;
-    margin-bottom: 19px;
-    margin-left: 15px;
-}
-
-.search-button{
-    margin-top: 25px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: §00vh;
+    min-width: 750px;
 }
 
 form{
@@ -93,36 +34,6 @@ form{
     height: 40px;
     display: flex;
 }
-
-.input{
-    border: solid 1px;
-    border-right: none;
-    outline: none;
-    flex: 1;
-}
-
-form button{
-    padding: 10px 20px;
-    border: solid 1px;
-    border-left: none;
-}
-
-.actie-img{ 
-    width: 200px;
-    height: auto;
-    padding-top: 100px;
-}
-
-@font-face {
-    font-family: "NexaLight";
-    src: url(../fonts/nexa-light.otf);
-}
-
-@font-face {
-    font-family: "NexaBold";
-    src: url(../fonts/nexa-bold.otf);
-}
-
 
 .product{
     border: 1px solid orange;
@@ -150,6 +61,18 @@ form button{
     padding: 0;
 }
 
+.filter-container{
+    display: flex;
+    flex-direction: column;
 
+}
 
+.filter-collumn{
+    margin-left: 150px;
+    margin-top: 80px;
+}
 
+.actie-img{
+    margin-top: 100px;
+    transform: scale(1.3);
+}

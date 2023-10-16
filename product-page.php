@@ -11,7 +11,7 @@
     
     <div class="product-page">
         <div class="filter-collumn">
-            <form method="get" action="./product-page.php">
+            <form method="get" action="./product-page.php" class="filter-container">
                 <h2 class="headings-filters">Category</h2>
                 <input type="submit" name="collection" value="Classic">
                 <input type="submit" name="collection" value="Stripes">
@@ -21,8 +21,8 @@
                 <input type="submit" name="colorFilter" value="Pink">
                 <input type="submit" name="colorFilter" value="Red">
                 <input type="submit" name="colorFilter" value="Yellow">
+                <img src="assets/img/products/actie.png" alt="Sale ad" class="actie-img">
             </form>
-            <img src="assets/img/products/actie.png" alt="foto" class="actie-img">
         </div>
         <div class="flex-container">
             <?php
