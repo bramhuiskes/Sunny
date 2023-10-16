@@ -11,21 +11,17 @@
     
     <div class="product-page">
         <div class="filter-collumn">
-            <h2 class="headings-filters">Category</h2>
-            <a href="#" class="filters">STRIPE</a>
-            <a href="#" class="filters">UNI</a>
-            <h2 class="headings-filters">Colors</h2>
-            <a href="#" class="filters">YELLOW</a>
-            <a href="#" class="filters">RED</a>
-            <a href="#" class="filters">BLUE</a>
-            <a href="#" class="filters">GREEN</a>
-            <a href="#" class="filters">PINK</a>
-                <div class="search-button">
-                    <form action="#">
-                        <input type="text" placeholder="Search..." class="input" >
-                        <button type= "submit">.</button>
-                    </form>
-                </div>
+            <form method="get" action="./product-page.php">
+                <h2 class="headings-filters">Category</h2>
+                <input type="submit" name="collection" value="Classic">
+                <input type="submit" name="collection" value="Stripes">
+                <h2 class="headings-filters">Colors</h2>
+                <input type="submit" name="colorFilter" value="Green">
+                <input type="submit" name="colorFilter" value="Blue">
+                <input type="submit" name="colorFilter" value="Pink">
+                <input type="submit" name="colorFilter" value="Red">
+                <input type="submit" name="colorFilter" value="Yellow">
+            </form>
             <img src="assets/img/products/actie.png" alt="foto" class="actie-img">
         </div>
         <div class="flex-container">
@@ -34,5 +30,9 @@
             generateProductPage();
             ?>
         </div>
+        <form method="get">
+                <input type="submit" name="page" value="1">
+                <input type="submit" name="page" value="2">
+            </form>
 </body>
 </html>
