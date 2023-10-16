@@ -1,0 +1,116 @@
+.item{
+    padding: 50px;
+    border: 1px solid;
+    flex: 0 0 20%;
+    text-align: center;
+    font-size: 14px;
+    color: #443C32;
+}
+
+.product-prices{
+    margin-left: -225px;
+    font-family: Nexa Light, sans-serif;
+}
+
+.titel-uni-red{
+    font-family: Nexa Bold, sans-serif;
+    margin-left: -92px;
+}
+
+.titel-uni-pink{
+    font-family: Nexa Bold, sans-serif;
+    margin-left: -90px;
+}
+
+.titel-uni-blue{
+    font-family: Nexa Bold, sans-serif;
+    margin-left: -86px;
+}
+
+.titel-uni-yellow{
+    font-family: Nexa Bold, sans-serif;
+    margin-left: -60px;
+}
+
+.titel-uni-green{
+    font-family: Nexa Bold, sans-serif;
+    margin-left: -73px;
+}
+
+.titel-stripes-blue{
+    font-family: Nexa Bold, sans-serif;
+    margin-left: -50px;
+}
+
+.product-page{
+    display: flex;
+    align-items: normal;
+}
+
+.filter-collumn{
+    margin-left: 150px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.headings-filters{
+    font-family: Nexa Bold, sans-serif;
+    font-size: 33px;
+    color: #443C32;
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 200px;
+    margin-top: 100px;
+    align-items: center;
+}
+
+.filters{
+    font-family: Nexa Light, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: #443C32;
+    margin-bottom: 19px;
+    margin-left: 15px;
+}
+
+.search-button{
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: §00vh;
+}
+
+form{
+    margin-right: 50px;
+    width: 150px;
+    height: 40px;
+    display: flex;
+}
+
+.input{
+    border: solid 1px;
+    border-right: none;
+    outline: none;
+    flex: 1;
+}
+
+form button{
+    padding: 10px 20px;
+    border: solid 1px;
+    border-left: none;
+}
+
+.actie-img{ 
+    width: 200px;
+    height: auto;
+    padding-top: 100px;
+}
+
+
+
