@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="assets/css/includes/footer.css">
 <div class="benefits-section">
       <div class="benefits-container">
         <div class="benefits-icon-container">

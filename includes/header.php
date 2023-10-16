@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="./assets/css/includes/header.css">
+
 <div class="header">
   <div class="logo-container">
     <img
