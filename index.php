@@ -10,49 +10,7 @@
 </head>
 <body>
     <?php include "./includes/header.php" ?>
-    <div class="header">
-  <div class="logo-container">
-    <img
-      loading="lazy"
-      src="assets/img/logo/logo.png"
-      class="logo"
-    />
-    <div class="menu-justify-end">
-      <div class="menu-align-stretch">
-        <div class="menu-align-flex-start">
-          <div class="menu-container">
-            <div class="menu-border"></div>
-            <div class="menu-home">Home</div>
-          </div>
-          <div class="menu-new-in">NEW IN</div>
-          <div class="menu-shop-all">SHOP ALL</div>
-          <div class="menu-collections">COLLECTIONS</div>
-          <div class="menu-contact">CONTACT US</div>
-        </div>
-        <div class="cart" >
-          <img
-            loading="lazy"
-            src="assets/img/svg/shopping-cart.svg"
-            class="cart-icon"
-            id="cart-button"
-            onclick="dropdown.style.display = 'block';"
-          />
-          <div class="cart-count">0</div>
-
-        <div class="cart-container">
-            <div id="cart-dropdown" class="cart-dropdown">
-                <ul id="cart-items"></ul>
-                <div class="cart-total">
-                    <span>Total:</span>
-                    <span id="cart-total"></span>
-                </div>
-                <button id="view-cart-button">View Cart</button>
-            </div>
-        </div>
-        </div>
-      </div>
-    </div>
-  </div>
+  
   <div class="slogan-container">
     <div class="feel-good-text">FEEL GOOD</div>
     <div class="sunny-container">
@@ -239,81 +197,7 @@
         </div>
       </div>
     </div>
-    <div class="benefits-section">
-      <div class="benefits-container">
-        <div class="benefits-icon-container">
-          <img
-            loading="lazy"
-            src="assets/img/svg/shipping.svg"
-            class="benefits-icon"
-          />
-          <div class="benefits-text">INTERNATIONAL SHIPPING</div>
-        </div>
-        <div class="benefits-icon-container">
-          <img
-            loading="lazy"
-            src="assets/img/svg/warranty.svg"
-            class="benefits-icon"
-          />
-          <div class="benefits-text">6 month warranty</div>
-        </div>
-        <div class="benefits-icon-container">
-          <img
-            loading="lazy"
-            src="assets/img/svg/safe.svg"
-            class="benefits-icon"
-          />
-          <div class="benefits-text">safe shopping</div>
-        </div>
-        <div class="benefits-icon-container">
-          <img
-            loading="lazy"
-            src="assets/img/svg/return.svg"
-            class="benefits-icon"
-          />
-          <div class="benefits-text">FREE RETURNS</div>
-        </div>
-      </div>
-    </div>
-    <div class="footer-section">
-      <div class="footer-container">
-        <div class="footer-inner">
-          <div class="footer-logo-container">
-            <div class="column-15">
-              <div class="footer-logo-inner">
-                <img
-                  loading="lazy"
-                  src="assets/img/svg/logo-black.svg"
-                  class="footer-logo"
-                />
-                <div class="footer-slogan-text">The bright side of socks</div>
-              </div>
-            </div>
-            <div class="column-16">
-              <div class="social-media-container">
-                <div class="social-media-inner">
-                  <div class="social-media-item">Instagram</div>
-                  <div class="social-media-item">FACEBOOK</div>
-                  <div class="social-media-item">Twitter</div>
-                </div>
-              </div>
-            </div>
-            <div class="column-17">
-              <div class="copyright-container">
-                <div class="copyright-inner">
-                  <div class="copyright-light">© 2023</div>
-                  <div class="copyright-bold">SUNNY</div>
-                  <div class="copyright-light">,</div>
-                </div>
-                <div class="copyright-light">All Rights Reserved</div>
-              </div>
-            </div>
-          </div> 
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
+   
+  <?php include "./includes/footer.php" ?>
 </body>
 </html>
