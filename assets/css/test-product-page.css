@@ -1,0 +1,42 @@
+@font-face {
+    font-family: "NexaLight";
+    src: url(../fonts/nexa-light.otf);
+}
+
+@font-face {
+    font-family: "NexaBold";
+    src: url(../fonts/nexa-bold.otf);
+}
+
+
+.temp-product{
+    border: 1px solid orange;
+    width: fit-content;
+    padding: 24px;
+}
+
+.temp-product img{
+    width: 200px;
+}
+
+.temp-product p:nth-child(2){
+    font-family: "NexaBold";
+    font-size: larger;
+}
+
+.temp-product p:nth-child(3){
+    font-family: "NexaLight";
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    max-width: 750px;
+    margin: 10px;
+}

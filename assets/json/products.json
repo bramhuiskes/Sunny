@@ -1,5 +1,5 @@
+
 {
-  "socks": {
     "100": {
       "ProductName": "Blue Stripe socks",
       "ProductID": 100,
@@ -9,7 +9,7 @@
         "Price": 3.99,
         "Collection": "Stripes"
       },
-      "ProductThumbnail": "./img/products/sokken-stripes-blue.png"
+      "ProductThumbnail": "./assets/img/products/sokken-stripes-blue.png"
     },
     "101": {
       "ProductName": "Green Stripe socks",
@@ -20,7 +20,7 @@
         "Price": 3.99,
         "Collection": "Stripes"
       },
-      "ProductThumbnail": "./img/products/sokken-stripes-green.png"
+      "ProductThumbnail": "./assets/img/products/sokken-stripes-green.png"
     },
     "102": {
       "ProductName": "Pink Stripe socks",
@@ -31,7 +31,7 @@
         "Price": 3.99,
         "Collection": "Stripes"
       },
-      "ProductThumbnail": "./img/products/sokken-stripes-pink.png"
+      "ProductThumbnail": "./assets/img/products/sokken-stripes-pink.png"
     },
     "103": {
       "ProductName": "Red Stripe socks",
@@ -42,18 +42,18 @@
         "Price": 3.99,
         "Collection": "Stripes"
       },
-      "ProductThumbnail": "./img/products/sokken-stripes-red.png"
+      "ProductThumbnail": "./assets/img/products/sokken-stripes-red.png"
     },
     "104": {
       "ProductName": "Yellow Stripe socks",
       "ProductID": 104,
       "ProductProperties": {
-        "Color": "Blue",
+        "Color": "Yellow",
         "Size": 37,
         "Price": 3.99,
         "Collection": "Stripes"
       },
-      "ProductThumbnail": "./img/products/sokken-stripes-yellow.png"
+      "ProductThumbnail": "./assets/img/products/sokken-stripes-yellow.png"
     },
     "200": {
       "ProductName": "Blue Classic socks",
@@ -64,7 +64,7 @@
         "Price": 3.99,
         "Collection": "Classic"
       },
-      "ProductThumbnail": "./img/products/sokken-uni-blue.png"
+      "ProductThumbnail": "./assets/img/products/sokken-uni-blue.png"
     },
     "201": {
       "ProductName": "Green Classic socks",
@@ -75,7 +75,7 @@
         "Price": 3.99,
         "Collection": "Classic"
       },
-      "ProductThumbnail": "./img/products/sokken-uni-green.png"
+      "ProductThumbnail": "./assets/img/products/sokken-uni-green.png"
     },
     "202": {
       "ProductName": "Pink Classic socks",
@@ -86,7 +86,7 @@
         "Price": 3.99,
         "Collection": "Classic"
       },
-      "ProductThumbnail": "./img/products/sokken-uni-pink.png"
+      "ProductThumbnail": "./assets/img/products/sokken-uni-pink.png"
     },
     "203": {
       "ProductName": "Red Classic socks",
@@ -97,19 +97,18 @@
         "Price": 3.99,
         "Collection": "Classic"
       },
-      "ProductThumbnail": "./img/products/sokken-uni-red.png"
+      "ProductThumbnail": "./assets/img/products/sokken-uni-red.png"
     },
     "204": {
       "ProductName": "Yellow Classic socks",
       "ProductID": 204,
       "ProductProperties": {
-        "Color": "Blue",
+        "Color": "Yellow",
         "Size": 37,
         "Price": 3.99,
         "Collection": "Classic"
       },
-      "ProductThumbnail": "./img/products/sokken-uni-yellow.png"
+      "ProductThumbnail": "./assets/img/products/sokken-uni-yellow.png"
     }
 
   }
-}

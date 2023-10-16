@@ -12,10 +12,11 @@
     margin-left: 5%;
 }
 .contact-container .contact-hello{
-    font-size: 78pt;
+    font-size: 70pt;
     width: 440px;
     height: 194px;
     margin-bottom: 60px;
+    font-family: "Nexa Bold";
 }
 .contact-container .contact-info{
     font-size: 14pt;
