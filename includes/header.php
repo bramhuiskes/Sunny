@@ -29,15 +29,7 @@
           />
           <div class="cart-count">0</div>
 
-        <div class="cart-container">
-            <div id="cart-dropdown" class="cart-dropdown">
-                <ul id="cart-items"></ul>
-                <div class="cart-total">
-                    <span>Total:</span>
-                    <span id="cart-total"></span>
-                </div>
-                <button id="view-cart-button">View Cart</button>
-            </div>
+    
         </div>
         </div>
       </div>
