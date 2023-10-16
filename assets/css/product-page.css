@@ -27,6 +27,7 @@
     margin-top: 100px;
     max-width: 750px;
     min-width: 750px;
+    min-height: 1000px;
 }
 
 form{
@@ -82,7 +83,7 @@ form{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 750px;
+    min-width: 750px;
 
 }
 

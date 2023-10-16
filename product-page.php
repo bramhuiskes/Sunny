@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sunny | Product page</title>
     <link rel="stylesheet" href="assets/css/product-page.css">
-    <!-- <link rel="stylesheet" href="./assets/css/test-product-page.css" type="text/css"> -->
+    <link rel="stylesheet" href="./assets/css/style.css" type="text/css">
 </head>
 <body>
     <?php
@@ -36,7 +36,9 @@
             <input type="submit" name="page" value="2" class="page-button">
         </form>
         </div>
-
     </div>
+    <?php
+    include('./includes/footer.php');
+    ?>
 </body>
 </html>
