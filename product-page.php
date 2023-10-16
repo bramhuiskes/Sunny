@@ -29,10 +29,12 @@
             include('product-page-filter-handler.php');
             generateProductPage();
             ?>
+                    <form method="get" class="paging-nav">
+            <input type="submit" name="page" value="1">
+            <input type="submit" name="page" value="2">
+        </form>
         </div>
-        <form method="get">
-                <input type="submit" name="page" value="1">
-                <input type="submit" name="page" value="2">
-            </form>
+
+    </div>
 </body>
 </html>
