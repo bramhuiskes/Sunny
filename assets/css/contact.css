@@ -6,7 +6,7 @@
     height: 761px;
     margin-top: 50px;
     display: flex;
-    margin-bottom: 150px
+    margin-bottom: 100px
 }
 .contact-container-left-side{
     margin-left: 5%;
@@ -42,8 +42,80 @@
     height: 75%;
 }
 .contact-message-container{
-    background-color: #212A17;
-    width: 1860px;
-    height: 721px;
     display: flex;
+    background-color: #212A17;
+    margin: 50px;
+    width: 1400px;
+    height: 700px;
+    flex-direction: column;
+    align-items: center;
+}
+.contact-message-container .send-message{
+    margin-top: 100px;
+    display: flex;
+    font-size: 32pt;
+    font-family: "Nexa Bold";
+    color: #F15A39;
+}
+.contact-message-container .send-message-text{
+    display: flex;
+    width: 250px;
+    text-align: center;
+    font-size: 12pt;
+    color: #F15A39;
+    margin-bottom: 50px;
+    margin-top: 20px
+}
+.input-container{
+    display: flex;
+    width: 600px;
+    height: 250px;
+    flex-direction: column;
+}
+.contact-message-container .input-container .contact-name{
+    background-color: #212A17;
+    border-color: #F15A39;
+    width: 300px;
+    height: 40px;
+    color: #F15A39;
+}
+.contact-message-container .input-container .contact-email{
+    background-color: #212A17;
+    border-color: #F15A39;
+    width: 300px;
+    height: 40px;
+    color: #F15A39;
+}
+.contact-message-container .input-container .contact-message{
+    background-color: #212A17;
+    border-color: #F15A39;
+    width: 600px;
+    height: 200px;
+    color: #F15A39;
+    resize: none;
+}
+.contact-message-container .input-container .contact-submit{
+    position: relative;
+    top: 25px;
+    background-color: #212A17;
+    border-color: #F15A39;
+    width: 150px;
+    height: 40px;
+    color: #F15A39;
+}
+.contact-message-container .contact-name:focus{
+    outline: none !important;
+    border: 1px solid #F15A39;
+}
+.contact-message-container .contact-email:focus{
+    outline: none !important;
+    border: 1px solid #F15A39;  
+}
+.contact-message-container .contact-message:focus{
+    outline: none !important;
+    border: 1px solid #F15A39;
+}
+::placeholder{
+    color: #F15A39;
+    opacity: 0.8;
 }
