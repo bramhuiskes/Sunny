@@ -1,8 +1,9 @@
 <?php
-    $cookie_name = "shopping-cart-content";
+    
 
     function shoppingCartChanged()
     {
+        $cookie_name = "shopping-cart-content";
         try{
             if(!empty($_COOKIE[$cookie_name])){
                 $cookie_array = json_decode($_COOKIE[$cookie_name],TRUE);
@@ -18,28 +19,33 @@
                         $i_array++;
                     }
                     setcookie($cookie_name,json_encode($cookie_array), time() + (86400 * 30), "/");
+                    echo "werkt";
                 } 
             }
         } 
         catch (e)
         {
-            
+            echo "er is een fout opgetreden";
         }
     }
 
     function addShoppingCart($key, $value)
     {
+        $cookie_name = "shopping-cart-content";
         try{
+            $cookie_array = array();
+
             if(!empty($_COOKIE[$cookie_name]))
             {
                 $cookie_array = json_decode($_COOKIE[$cookie_name],TRUE);
-                $cookie_array[$key] = $value;
-                setcookie($cookie_name,json_encode($cookie_array), time() + (86400 * 30), "/");
+                
             }
+            $cookie_array[$key] = $value;
+            setcookie($cookie_name,json_encode($cookie_array), time() + (86400 * 30), "/");
         } 
         catch (e)
         {
-            
+            echo "er is een fout opgetreden";
         }
     }
 ?>
