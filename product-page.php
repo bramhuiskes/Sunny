@@ -5,22 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sunny | Product page</title>
     <link rel="stylesheet" href="assets/css/product-page.css">
-    <!-- <link rel="stylesheet" href="./assets/css/test-product-page.css" type="text/css"> -->
+    <link rel="stylesheet" href="./assets/css/style.css" type="text/css">
 </head>
 <body>
-    
+    <?php
+        include "includes/header.php"
+    ?>
     <div class="product-page">
         <div class="filter-collumn">
             <form method="get" action="./product-page.php" class="filter-container">
                 <h2 class="headings-filters">Category</h2>
-                <input type="submit" name="collection" value="Classic">
-                <input type="submit" name="collection" value="Stripes">
+                <input type="submit" name="collection" value="Classic" class="filter-items">
+                <input type="submit" name="collection" value="Stripes" class="filter-items">
                 <h2 class="headings-filters">Colors</h2>
-                <input type="submit" name="colorFilter" value="Green">
-                <input type="submit" name="colorFilter" value="Blue">
-                <input type="submit" name="colorFilter" value="Pink">
-                <input type="submit" name="colorFilter" value="Red">
-                <input type="submit" name="colorFilter" value="Yellow">
+                <input type="submit" name="colorFilter" value="Green" class="filter-items">
+                <input type="submit" name="colorFilter" value="Blue" class="filter-items">
+                <input type="submit" name="colorFilter" value="Pink" class="filter-items">
+                <input type="submit" name="colorFilter" value="Red" class="filter-items">
+                <input type="submit" name="colorFilter" value="Yellow" class="filter-items">
                 <img src="assets/img/products/actie.png" alt="Sale ad" class="actie-img">
             </form>
         </div>
@@ -29,10 +31,14 @@
             include('product-page-filter-handler.php');
             generateProductPage();
             ?>
+                    <form method="get" class="paging-nav">
+            <input type="submit" name="page" value="1" class="page-button">
+            <input type="submit" name="page" value="2" class="page-button">
+        </form>
         </div>
-        <form method="get">
-                <input type="submit" name="page" value="1">
-                <input type="submit" name="page" value="2">
-            </form>
+    </div>
+    <?php
+    include('./includes/footer.php');
+    ?>
 </body>
 </html>

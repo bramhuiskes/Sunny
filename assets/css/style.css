@@ -12,6 +12,7 @@
 }
 body{
     background-color: #F0EBE3;
+    overflow-x: hidden;
 }
 
 a.btn{
