@@ -1,0 +1,73 @@
+*{
+    font-family: "Nexa Light", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container-cta{
+    width: 100vw;
+    height: 420px;
+    display: flex;
+    margin-top: 100px;
+}
+.container-cta .container-available-at{
+    width: 50%;
+    height: 420px;
+    background-color: #212A17;
+}
+.container-available-content p{
+    font-family: "Nexa Bold";
+    font-size: 48pt;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+.stores{
+    display: flex;
+    justify-content: center;
+    margin-right: 25px;
+    position: relative;
+    top: 100px;
+}
+.container-question{
+    width: 50%;
+    height: 420px;
+    background-color: #E1DFD9;
+}
+.container-question-content .question{
+    font-size: 48pt;
+    font-family: "Nexa Bold", sans-serif;
+    text-align: center;
+    margin-top: 100px;
+}
+.button-faq{
+    width: fit-content;
+    padding: 1vh 3vh;
+    border-radius: 25px;
+    background-color: #E1DFD9;
+    border: 1px solid black;
+}
+.button-faq input{
+    border: none;
+    background-color: #E1DFD9;
+}
+.button-contact{
+    width: fit-content;
+    padding: 1vh 3vh;
+    border-radius: 25px;
+    background-color: #E1DFD9;
+    border: 1px solid black;
+}
+.button-contact input{
+    border: none;
+    background-color: #E1DFD9;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+.buttons:hover input{
+    cursor: pointer;;
+}
