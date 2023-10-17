@@ -12,7 +12,7 @@ function generateProductPage()
         }
     }
     
-        foreach (array_slice($productArray, $indexOffset, 6) as $key => $value) {
+        foreach (array_slice($productArray, $indexOffset, 6) as $value) {
             echo "<div class=\"product\"><div class=\"blur-overlay\" onclick=\"redirectToProduct(" . $value['ProductID'] . ")\"><img src=" . $value['ProductThumbnail'] . " alt=\"Intel sok\">";
             echo "<p>" . $value['ProductName'] . "</p>";
             echo "<p>" . $value['ProductProperties']['Price'] . "</p>";
