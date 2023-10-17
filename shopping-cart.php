@@ -1,23 +1,7 @@
 <?php
-$cookie_name = "shopping-cart-content";
-try{
-    if(!empty($_COOKIE[$cookie_name])){
-        $cookie_array = json_decode($_COOKIE[$cookie_name],TRUE);
-        if($_SERVER["REQUEST_METHOD"] == "POST"){
+    include "./includes/set-cookie.php";
 
-            $post_val = $_POST['item-count'];
-
-            $i_array = 0;
-            foreach($cookie_array as $key=>$value){
-                $cookie_array[$key] = (int) $post_val[$i_array];
-                $i_array++;
-            }
-            setcookie($cookie_name,json_encode($cookie_array), time() + (86400 * 30), "/");
-        } 
-    }
-} catch (e){
-
-}
+    shoppingCartChanged();
 ?>
 
 <!DOCTYPE html>
@@ -35,7 +19,8 @@ try{
     <div>
         
         <?php
-            if(isset($_COOKIE[$cookie_name]) && !isset($_GET['empty'])){
+            if(isset($_COOKIE[$cookie_name]) && !isset($_GET['empty']))
+            {
 
                 $json_file = file_get_contents('./assets/json/products.json');
 
@@ -47,7 +32,8 @@ try{
 
                 echo "<div class=\"shopping-cart filled\"><form method=\"post\" action=\"#\">";
 
-                foreach($cookie_array as $key=>$value){
+                foreach($cookie_array as $key=>$value)
+                {
                         $i++;
                         
                         $productDetails = $products[$key];
@@ -58,7 +44,8 @@ try{
                         $amount = $value;
                     
                         $productProp = $productDetails['ProductProperties'];
-                        if((int) $value != 0){
+                        if((int) $value != 0)
+                        {
                             $price += 
                             ($productProp['Price']*$amount);
                         }
@@ -93,7 +80,8 @@ try{
                 $discount = $price/11.97;
                 $discount = ((((int)round($discount)))*1.98);
                 $price -= $discount;
-                if($price == 0){
+                if($price == 0)
+                {
                     echo "<script>window.location = \"?empty=true\"</script>";
                 }
                 echo "<p>New price: <b>&euro;".$price."</b></p>";
@@ -105,7 +93,9 @@ try{
                 </div>";
 
                 echo "</div>";
-            } else {
+            } 
+            else 
+            {
                 echo "
                 <div class=\"shopping-cart empty\">
                     <h1>
@@ -120,7 +110,8 @@ try{
         ?>
     </div>
     <script>
-        function delete_item(id){
+        function delete_item(id)
+        {
             document.getElementById("npt"+id).value = 0;
             document.getElementById("reloadBtn").click();
         }
