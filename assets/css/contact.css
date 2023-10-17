@@ -72,11 +72,19 @@
     height: 250px;
     flex-direction: column;
 }
+.input-container .contact-name-email{
+    display: flex;
+    width: 600px;
+}
+.contact-name-email input{
+    border-bottom: 0;
+}
 .contact-message-container .input-container .contact-name{
     background-color: #212A17;
     border-color: #F15A39;
     width: 300px;
     height: 40px;
+    border-right: 10px;
     color: #F15A39;
 }
 .contact-message-container .input-container .contact-email{
@@ -89,19 +97,20 @@
 .contact-message-container .input-container .contact-message{
     background-color: #212A17;
     border-color: #F15A39;
-    width: 600px;
+    width: 595px;
     height: 200px;
     color: #F15A39;
     resize: none;
 }
 .contact-message-container .input-container .contact-submit{
     position: relative;
-    top: 25px;
+    top: 20px;
     background-color: #212A17;
-    border-color: #F15A39;
-    width: 150px;
-    height: 40px;
+    border: 1px solid #F15A39;
     color: #F15A39;
+    width: fit-content;
+    padding: 1vh 3vh;
+    border-radius: 25px;
 }
 .contact-message-container .contact-name:focus{
     outline: none !important;

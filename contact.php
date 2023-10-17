@@ -25,13 +25,17 @@
         <p class="send-message">Send us a message</p>
         <p class="send-message-text">Justo elitr honestatis his id, et singulis molestiae sit.</p>
         <div class="input-container">
-            <input type="text" name="name" placeholder="Name" class="contact-name" required>
-            <input type="text" name="email" placeholder="E-mail" class="contact-email" required>
+            <div class="contact-name-email">
+                <input type="text" name="name" placeholder="Name" class="contact-name" required>
+                <input type="text" name="email" placeholder="E-mail" class="contact-email" required>
+            </div>
             <textarea name="message" cols="30" rows="10" placeholder="Type your message here" class="contact-message"></textarea>
             <input type="submit" name="message" class="contact-submit" value="Send message">
         </div>
     </div>
 
+    <?php include "./includes/cta.php" ?>
+    
     <?php include "./includes/footer.php" ?>
 </body>
 </html>
