@@ -9,7 +9,6 @@
 </head>
 <body>
     <?php include "./includes/header.php" ?>
-
     <div class="contact-container">
         <div class="contact-container-left-side">
             <p class="contact-hello">Say Hello To Us</p>
@@ -33,9 +32,7 @@
             <input type="submit" name="message" class="contact-submit" value="Send message">
         </div>
     </div>
-
     <?php include "./includes/cta.php" ?>
-    
     <?php include "./includes/footer.php" ?>
 </body>
 </html>
