@@ -53,6 +53,10 @@ form{
     width: calc(100% - 88px);
     text-align: center;
     pointer-events: none;
+    padding: 1vh 3vh;
+    border-radius: 25px;
+    background-color: #F0ECE3;
+    border: 1px solid black;
 }
 
 .product{

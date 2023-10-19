@@ -16,7 +16,7 @@ function generateProductPage()
             echo "<div class=\"product\"><div class=\"blur-overlay\" onclick=\"redirectToProduct(" . $value['ProductID'] . ")\"><img src=" . $value['ProductThumbnail'] . " alt=\"Intel sok\">";
             echo "<p>" . $value['ProductName'] . "</p>";
             echo "<p>" . $value['ProductProperties']['Price'] . "</p>";
-            echo "</div><h2 class=\"button-overlay\">Buy!</h2></div>";
+            echo "</div><button class=\"button-overlay\">Go to shopping page</button></div>";
         }
 }
 
