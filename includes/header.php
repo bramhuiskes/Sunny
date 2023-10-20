@@ -2,20 +2,20 @@
 
 <div class="header">
   <div class="logo-container">
+    <a href="./index.php">
     <img
       loading="lazy"
       src="assets/img/logo/logo.png"
       class="logo"
-    />
+    /></a>
     <div class="menu-justify-end">
       <div class="menu-align-stretch">
         <div class="menu-align-flex-start">
           <div class="menu-container">
             <div class="menu-border"></div>
-            <div class="menu-home">Home</div>
+            <div class="menu-home"><a href="./index.php">Home</a></div>
           </div>
-          <div class="menu-new-in">NEW IN</div>
-          <div class="menu-shop-all">SHOP ALL</div>
+          <div class="menu-shop-all"><a href="./product-page.php">SHOP ALL</a></div>
           <div class="menu-collections">COLLECTIONS</div>
           <div class="menu-contact">CONTACT US</div>
         </div>
