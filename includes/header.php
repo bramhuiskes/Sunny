@@ -27,7 +27,7 @@
             id="cart-button"
             onclick="dropdown.style.display = 'block';"
           />
-          <div class="cart-count">0</div>
+          <div class="cart-count"><?php include('cookie-item-count.php'); echo getCartItemCount(); ?></div>
 
     
         </div>

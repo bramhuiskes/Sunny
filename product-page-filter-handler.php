@@ -12,11 +12,11 @@ function generateProductPage()
         }
     }
     
-        foreach (array_slice($productArray, $indexOffset, 6) as $key => $value) {
-            echo "<div class=\"product\"><img src=" . $value['ProductThumbnail'] . " alt=\"Intel sok\">";
+        foreach (array_slice($productArray, $indexOffset, 6) as $value) {
+            echo "<div class=\"product\"><div class=\"blur-overlay\" onclick=\"redirectToProduct(" . $value['ProductID'] . ")\"><img src=" . $value['ProductThumbnail'] . " alt=\"Intel sok\">";
             echo "<p>" . $value['ProductName'] . "</p>";
             echo "<p>" . $value['ProductProperties']['Price'] . "</p>";
-            echo "<input type=\"hidden\" value=" . $key . "></div>";
+            echo "</div><button class=\"button-overlay\">Go to shopping page</button></div>";
         }
 }
 

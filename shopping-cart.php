@@ -1,25 +1,31 @@
 <?php
-$cookie_name = "shopping-cart-content";
-try{
-    $cookie_array = json_decode($_COOKIE[$cookie_name],TRUE);
-    if($_SERVER["REQUEST_METHOD"] == "POST"){
-
-        $post_val = $_POST['item-count'];
-
-        $i_array = 0;
-        foreach($cookie_array as $key=>$value){
-            $cookie_array[$key] = (int) $post_val[$i_array];
-            $i_array++;
+    $cookie_name = "shopping-cart-content";
+    try{
+        if(!empty($_COOKIE[$cookie_name])){
+            $cookie_array = json_decode($_COOKIE[$cookie_name],TRUE);
+            if($_SERVER["REQUEST_METHOD"] == "POST")
+            {
+    
+                $post_val = $_POST['item-count'];
+    
+                $i_array = 0;
+                foreach($cookie_array as $key=>$value)
+                {
+                    $cookie_array[$key] = (int) $post_val[$i_array];
+                    $i_array++;
+                }
+                setcookie($cookie_name,json_encode($cookie_array), time() + (86400 * 30), "/");
+            } 
         }
-        setcookie($cookie_name,json_encode($cookie_array), time() + (86400 * 30), "/");
     } 
-} catch (e){
-
-}
+    catch (Exception $e)
+    {
+        echo "er is een fout opgetreden";
+    }
 ?>
 
 <!DOCTYPE html>
-<html lang="nl">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -33,7 +39,8 @@ try{
     <div>
         
         <?php
-            if(isset($_COOKIE[$cookie_name]) && !isset($_GET['empty'])){
+            if(isset($_COOKIE[$cookie_name]) && !isset($_GET['empty']))
+            {
 
                 $json_file = file_get_contents('./assets/json/products.json');
 
@@ -45,7 +52,8 @@ try{
 
                 echo "<div class=\"shopping-cart filled\"><form method=\"post\" action=\"#\">";
 
-                foreach($cookie_array as $key=>$value){
+                foreach($cookie_array as $key=>$value)
+                {
                         $i++;
                         
                         $productDetails = $products[$key];
@@ -56,7 +64,8 @@ try{
                         $amount = $value;
                     
                         $productProp = $productDetails['ProductProperties'];
-                        if((int) $value != 0){
+                        if((int) $value != 0)
+                        {
                             $price += 
                             ($productProp['Price']*$amount);
                         }
@@ -91,19 +100,22 @@ try{
                 $discount = $price/11.97;
                 $discount = ((((int)round($discount)))*1.98);
                 $price -= $discount;
-                if($price == 0){
+                if($price == 0)
+                {
                     echo "<script>window.location = \"?empty=true\"</script>";
                 }
                 echo "<p>New price: <b>&euro;".$price."</b></p>";
                 $arr_discount = explode(".",$discount);
-                echo "<p>Discount: <b> €". $arr_discount[0].".".substr(strval($arr_discount[1]),0,2)."</b></p>";
+                echo "<p>Discount: <b> €". (($discount!=0.00)?$arr_discount[0]:"0").".".(($discount!=0.00)?substr(strval($arr_discount[1]),0,2):"0")."</b></p>";
                 echo "<div class=\"btn-div\">
                     <a href=\"#\" class=\"shop\">Shop more</a>
                     <a href=\"#\" class=\"submit\">Checkout</a>
                 </div>";
 
                 echo "</div>";
-            } else {
+            } 
+            else 
+            {
                 echo "
                 <div class=\"shopping-cart empty\">
                     <h1>
@@ -118,10 +130,13 @@ try{
         ?>
     </div>
     <script>
-        function delete_item(id){
+        function delete_item(id)
+        {
             document.getElementById("npt"+id).value = 0;
             document.getElementById("reloadBtn").click();
         }
     </script>
+    <?php include "./includes/footer.php" ?>
+
 </body>
 </html>
