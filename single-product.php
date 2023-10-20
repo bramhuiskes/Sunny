@@ -1,9 +1,14 @@
 <?php
 include "./includes/set-cookie.php";
+if(!isset($_GET['product-key'])){
+    header("location: product-page.php");
+}
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     addShoppingCart($_GET['product-key'], ((int) $_POST['amount']));
 
     $added = "Item added to shoppingcart";
+
+    header("location: single-product.php?product-key=".$_GET['product-key']."&timeadded=".date("h:i:sa"));
 }
 ?>
 <!DOCTYPE html>
@@ -18,8 +23,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <script src="./assets/js/script.js"></script>
 </head>
 <body>
-    <?php include "./includes/header.php" ?>
-    <?php
+    <?php include "./includes/header.php";
 
     if (isset($added)) {
         echo "<div class=\"messageShoppingcart active\">
