@@ -1,0 +1,60 @@
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the container */
+    padding: 20px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+/* Define styles for the cards */
+
+.card-1 {
+    flex: 1;
+    border-radius: 20px 0px 0px 20px;
+    min-width: 45%; /* Adjust the width of the cards */
+    padding: 20px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    border: 1px solid #ccc;
+    background-image: url("/assets/img/uni-color.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+
+    
+}
+.card-2 {
+    border-radius: 0px 20px 20px 0px;
+    flex: 1;           
+    padding: 20px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    min-width: 45%; /* Adjust the width of the cards */
+    border: 1px solid #ccc;
+    background-image: url("/assets/img/stripes.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+
+}
+/* Additional styles for the text */
+.text {
+    text-align: center;
+    color: #443c32;
+    font-size: 65px;
+    font-family: Nexa Bold, sans-serif;
+    text-transform: uppercase;
+    
+}
+.explore-button{
+    padding:12px 30px;
+    border-radius: 22px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: #f0ebe3;
+}
