@@ -5,7 +5,7 @@
             $cookie_array = json_decode($_COOKIE[$cookie_name],TRUE);
             if($_SERVER["REQUEST_METHOD"] == "POST")
             {
-    
+                
                 $post_val = $_POST['item-count'];
     
                 $i_array = 0;
