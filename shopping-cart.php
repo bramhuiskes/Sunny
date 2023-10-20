@@ -5,7 +5,7 @@
             $cookie_array = json_decode($_COOKIE[$cookie_name],TRUE);
             if($_SERVER["REQUEST_METHOD"] == "POST")
             {
-    
+                
                 $post_val = $_POST['item-count'];
     
                 $i_array = 0;
@@ -98,7 +98,11 @@
                 </p>";
 
                 $discount = $price/11.97;
-                $discount = ((((int)round($discount)))*1.98);
+                if(floor($discount) != $discount)
+                {
+                    $discount -= 1;
+                }
+                $discount = ((((int)round($discount)))*1.98);   
                 $price -= $discount;
                 if($price == 0)
                 {
