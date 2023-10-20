@@ -193,3 +193,9 @@
         gap: 500px;
     }
 }
+
+a{
+    text-decoration: none !important;
+    color: var(--Main-Orange, #f15a39);
+    font-family: Nexa Bold, sans-serif;
+}
