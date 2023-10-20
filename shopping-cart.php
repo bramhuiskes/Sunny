@@ -98,7 +98,11 @@
                 </p>";
 
                 $discount = $price/11.97;
-                $discount = ((((int)round($discount)))*1.98);
+                if(floor($discount) != $discount)
+                {
+                    $discount -= 1;
+                }
+                $discount = ((((int)round($discount)))*1.98);   
                 $price -= $discount;
                 if($price == 0)
                 {

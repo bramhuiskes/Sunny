@@ -27,10 +27,10 @@
         </div>
         <section style="margin-bottom: 50px; margin-left: 50px;">
           <div style="width: 450px; height: 142px; position: relative; border: 1px #F15A39 solid;">
-            <div style="width: 190px; height: 18px; left: 19px; top: 100px; position: absolute; color: #F15A39; font-size: 16px; font-family: Nexa Bold; font-weight: 700; text-transform: uppercase; line-height: 18px; word-wrap: break-word">view all products</div>
+            <div style="width: 190px; height: 18px; left: 19px; top: 100px; position: absolute; color: #F15A39; font-size: 16px; font-family: Nexa Bold; font-weight: 700; text-transform: uppercase; line-height: 18px; word-wrap: break-word"><a href="product-page.php">view all products</a></div>
             <div style="width: 231px; height: 80px; left: 1px; top: 1px; position: absolute; border-right: 1px #F15A39 solid; border-bottom: 1px #F15A39 solid"></div>
             <div style="width: -webkit-fill-available; height: 80px; left: 232px; top: 1px; position: absolute; border-bottom: 1px #F15A39 solid"></div>
-            <div style="width: 160px; height: 18px; left: 19px; top: 32px; position: absolute; color: #F15A39; font-size: 16px; font-family: Nexa Bold; font-weight: 700; text-transform: uppercase; line-height: 18px; word-wrap: break-word">NEW COLLECTION</div>
+            <div style="width: 160px; height: 18px; left: 19px; top: 32px; position: absolute; color: #F15A39; font-size: 16px; font-family: Nexa Bold; font-weight: 700; text-transform: uppercase; line-height: 18px; word-wrap: break-word"><a href="collections.php">OUR COLLECTIONS</a></div>
             <div style=" height: 62px; left: 250px; right: 10px; top: 15%; position: absolute; color: #F15A39; font-size: 16px; font-family: Nexa Bold; font-weight: 700; text-transform: uppercase; line-height: 18px; word-wrap: break-word; align-items: center; ">READ OUR VISION FOR A BETTER FUTURE</div>
             <div style="width: 56px; height: 58px; left: 615px; top: 137px; position: absolute; transform: rotate(-90deg); transform-origin: 0 0">
               <div style="width: 18.67px; height: 29px; left: 18.67px; top: 14.50px; position: absolute; border-radius: 2px; border: 1.50px #F15A39 solid"></div>

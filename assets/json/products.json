@@ -56,57 +56,57 @@
       "ProductThumbnail": "./assets/img/products/sokken-stripes-yellow.png"
     },
     "200": {
-      "ProductName": "Blue Classic socks",
+      "ProductName": "Blue Uni Color socks",
       "ProductID": 200,
       "ProductProperties": {
         "Color": "Blue",
         "Size": 37,
         "Price": 3.99,
-        "Collection": "Classic"
+        "Collection": "Uni Color"
       },
       "ProductThumbnail": "./assets/img/products/sokken-uni-blue.png"
     },
     "201": {
-      "ProductName": "Green Classic socks",
+      "ProductName": "Green Uni Color socks",
       "ProductID": 201,
       "ProductProperties": {
         "Color": "Green",
         "Size": 37,
         "Price": 3.99,
-        "Collection": "Classic"
+        "Collection": "Uni Color"
       },
       "ProductThumbnail": "./assets/img/products/sokken-uni-green.png"
     },
     "202": {
-      "ProductName": "Pink Classic socks",
+      "ProductName": "Pink Uni Color socks",
       "ProductID": 202,
       "ProductProperties": {
         "Color": "Pink",
         "Size": 37,
         "Price": 3.99,
-        "Collection": "Classic"
+        "Collection": "Uni Color"
       },
       "ProductThumbnail": "./assets/img/products/sokken-uni-pink.png"
     },
     "203": {
-      "ProductName": "Red Classic socks",
+      "ProductName": "Red Uni Color socks",
       "ProductID": 203,
       "ProductProperties": {
         "Color": "Red",
         "Size": 37,
         "Price": 3.99,
-        "Collection": "Classic"
+        "Collection": "Uni Color"
       },
       "ProductThumbnail": "./assets/img/products/sokken-uni-red.png"
     },
     "204": {
-      "ProductName": "Yellow Classic socks",
+      "ProductName": "Yellow Uni Color socks",
       "ProductID": 204,
       "ProductProperties": {
         "Color": "Yellow",
         "Size": 37,
         "Price": 3.99,
-        "Collection": "Classic"
+        "Collection": "Uni Color"
       },
       "ProductThumbnail": "./assets/img/products/sokken-uni-yellow.png"
     }

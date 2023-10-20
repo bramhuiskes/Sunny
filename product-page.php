@@ -16,7 +16,7 @@
         <div class="filter-collumn">
             <form method="get" action="./product-page.php" class="filter-container">
                 <h2 class="headings-filters">Category</h2>
-                <input type="submit" name="collection" value="Classic" class="filter-items">
+                <input type="submit" name="collection" value="Uni Color" class="filter-items">
                 <input type="submit" name="collection" value="Stripes" class="filter-items">
                 <h2 class="headings-filters">Colors</h2>
                 <input type="submit" name="colorFilter" value="Green" class="filter-items">

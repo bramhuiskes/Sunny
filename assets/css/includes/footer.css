@@ -5,6 +5,7 @@
     display: flex;
     margin-top: 39px;
     width: 100vw;
+    overflow-x: hidden;
     flex-direction: column;
     }
     @media (max-width: 991px) {
@@ -307,3 +308,4 @@
         text-wrap: initial;
         }
         }
+
