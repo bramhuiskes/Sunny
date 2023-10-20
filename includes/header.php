@@ -17,7 +17,7 @@
           </div>
           <div class="menu-shop-all"><a href="./product-page.php">SHOP ALL</a></div>
           <div class="menu-collections">COLLECTIONS</div>
-          <div class="menu-contact">CONTACT US</div>
+          <div class="menu-contact"><a href=./contact.php>CONTACT US</a></div>
         </div>
         <div class="cart" >
           <img
