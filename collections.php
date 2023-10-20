@@ -16,13 +16,13 @@
     <div class="card-container">
         <div class="card-1">
             <p class="text">Uni Color</p>
-            <a href="product-page.php">
+            <a href="product-page.php?collection=Uni+Color">
             <button class="explore-button">Explore</button>
             </a>       
          </div>
         <div class="card-2">
             <p class="text">Stripes</p>
-            <a href="product-page.php">
+            <a href="product-page.php?collection=Stripes">
             <button class="explore-button">Explore</button>
             </a>
         </div>
