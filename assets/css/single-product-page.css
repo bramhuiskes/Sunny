@@ -1,35 +1,35 @@
-@font-face {
+@font-face{
     font-family: "Nexa Light";
     src: url(../font/Nexa\ Light.otf);
 }
-@font-face {
+@font-face{
     font-family: "Nexa Bold";
     src: url(../font/Nexa\ Bold.otf);
 }
-* {
+*{
     font-family: "Nexa Light", sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body {
+body{
     background-color: #F0ECE3;
 }
-.container {
+.container{
     display: flex;
     justify-content: center;
     align-items: start;
     padding-top: 12vh;
     gap: 3em;
 }
-.wrapper {
+.wrapper{
     display: flex;
     flex-direction: column;
 }
-.bijproducten img:nth-child(1) {
+.extra-products img:nth-child(1){
     border-bottom: none;
 }
-.bijproducten img {
+.extra-products img{
     width: 15vh;
     display: flex;
     flex-direction: column;
@@ -39,87 +39,83 @@ body {
     z-index: 0;
     transition: all 0.2s;
 }
-.bijproducten img:hover{
+.extra-products img:hover{
     transform: scale(1.05);
     cursor: pointer;
     z-index: 1;
     border: 2px solid grey;
 }
-.container select {
+.container select{
     background-color: #F0ECE3;
 }
-.productenTotaal {
+.product-total{
     display: flex;
 }
-.hoofdproduct {
+.main-product{
     padding: 2em 8em;
 }
-.hoofdproduct img {
+.main-product img{
     width: 250px;
 }
-.hoofdproduct {
-
+.main-product{
     border: 2px solid grey;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.productdetail {
+.product-detail{
     align-self: self-start;
     display: flex;
     gap: 1em;
     flex-direction: column;
-
 }
-.productdetail__Btn {
+.product-detail-btn{
     display: flex;
     flex-direction: column;
 }
-.productdetail h1 {
+.product-detail h1{
     font-size: 5rem;
     font-weight: bold;
     font-family: "Nexa Bold", sans-serif;
     margin: 0;
     line-height: 0.8;
     font-size: 3rem;
-
 }
-.reviews {
+.reviews{
     display: flex;
     align-items: center;
 }
-.reviews p {
+.reviews p{
     margin-left: 1vh;
 }
-.productdetail p {
+.product-detail p{
     max-width: 500px;
 }
-.btn {
+.btn{
     width: 150px;
     height: 40px;
 }
-.nav ul {
+.nav ul{
     list-style-type: none;
     display: flex;
     flex-direction: row;
     gap: 1vh;
     padding: 1em;
-
 }
-.nav a {
+.nav a{
     text-decoration: none;
     color: black;
 }
-.nav li:not(:last-child)::after {
+.nav li:not(:last-child)::after{
     content: '/';
     margin-left: 1vh;
 }
-.counter {
+.counter{
     display: flex;
     flex-direction: row;
 
 }
-.getal {
+.number{
     width: 3rem;
     display: flex;
     align-items: center;
@@ -127,102 +123,102 @@ body {
     border-top: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
 }
-.input-getal{
+.input-number{
     width: 3rem;
     outline: none;
     background-color: transparent;
     border: none;
     text-align: center;
 }
-.counter button {
+.counter button{
     width: 2.6em;
     height: 2.6em;
     border: 1px solid #ccc;
     background-color: #F0ECE3;
     transition: all 0.2s;
 }
-.counter button:hover {
+.counter button:hover{
     transform: scale(1.05);
     box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.16);
     cursor: pointer;
 }
-.counterContainer {
+.counter-container{
     display: flex;
     flex-direction: row;
     align-items: center;
     margin-top: 2vh;
     gap: 2vh;
 }
-.cartBtn {
+.cart-btn{
     padding: 1vh 3vh;
     border-radius: 25px;
     background-color: #F0ECE3;
     border: 1px solid black;
 }
-.cartBtn:hover {
+.cart-btn:hover{
     transform: scale(1.05);
     box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.7);
     cursor: pointer;
 }
-.wrapper {
+.wrapper{
     display: flex;
     justify-content: center;
     width: 1000px;
     margin: 0 auto
 }
-.dispriction {
+.dispriction{
     display: flex;
     flex-direction: column;
     margin-top: 2em;
 }
-.dispriction__Btn {
+.dispriction-btn{
     padding: 0.8em 3.4em;
     background-color: inherit;
     border: 1px solid grey;
     margin-left: -1px;
     margin-bottom: -1px;
 }
-.dispriction__Btn:hover {
+.dispriction-btn:hover{
     background-color: black;
     color: white;
     cursor: pointer;
 }
-.dispriction__Btn.active {
+.dispriction-btn.active{
     background-color: black;
     color: white;
 }
-.dispriction__Content {
+.dispriction-content{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     border-top: 1px solid grey;
     padding-top: 2em;
 }
-.dispriction__Content span {
+.dispriction-content span{
     width: 600px;
 }
-.dispriction__Content h2{
+.dispriction-content h2{
     font-family: "Nexa Bold", sans-serif;
     font-size: 1em;
 }
 .dispriction nav{
     display: flex;
 }
-.relatedproducts h2{
+.related-products h2{
     font-family: "Nexa Bold", sans-serif;
 }
-.sokcontainer__img{
+.sock-container-img{
     height: 30vh;
 }
-.relatedproducts{
+.related-products{
    margin-bottom: 10em;
 }
-.productwrapper{
+.product-wrapper{
     display: flex;
     flex-wrap: wrap;
     justify-content: stretch;
 }
-.sokcontainer{
+.sock-container{
     width: 300px;
     height: 300px;
     display: flex;
@@ -236,23 +232,23 @@ body {
     z-index: 0;
     transition: all 0.2s;
 }
-.sokcontainer:hover{
+.sock-container:hover{
     transform: scale(1.05);
     cursor: pointer;
     z-index: 1;
 }
-.relatedproducts h2{
+.related-products h2{
     margin-top: 3em;
     margin-bottom: 1em;
 }
-.sokcontainer__info{
+.sock-container-info{
     position: absolute;
     left: 1vh;
     bottom: 1vh;
 }
-.sokcontainer span{
+.sock-container span{
     font-size: 12px;
 }
-.sokcontainer p{
+.sock-container p{
     font-family: "Nexa Bold", sans-serif;
 }

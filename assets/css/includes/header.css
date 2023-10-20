@@ -187,3 +187,9 @@
     text-wrap: initial;
     }
     }
+
+@media(max-width: 1500px){
+    .logo-container{
+        gap: 500px;
+    }
+}

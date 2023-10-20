@@ -18,7 +18,7 @@
             } 
         }
     } 
-    catch (e)
+    catch (Exception $e)
     {
         echo "er is een fout opgetreden";
     }
