@@ -10,9 +10,12 @@
 
 </head>
 <body>
-    <?php
+    <div>
+        
+        <?php
         include "includes/header.php"
-    ?>
+        ?>
+    </div>
  
     <div class="accordion">
         <div class="box">
@@ -65,5 +68,14 @@
     <?php
         include "includes/footer.php"
     ?>
+    <script>
+        const accordion = document.getElementsByClassName('box');
+
+        for (i = 0; i<accordion.length; i++){
+            accordion[i].addEventListener('click', function(){
+                this.classList.toggle('active')
+            })
+        }
+    </script>
 </body>
 </html>

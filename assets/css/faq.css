@@ -1,6 +1,63 @@
 body{
     background-color: #F0EBE3;
-    display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.accordion{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+
+}
+
+.accordion .box{
+    position: relative;
+    margin: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.accordion .box .label{
+    position: relative;
+    padding: 10px;
+    background: #F0EBE3;
+    border: solid #443C32 1px;
+    border-radius: 16px;
+    color: #443C32;
+    font-family: Nexa Bold, sans-serif;
+    font-size: 20px;
+    width: 700px;
+
+}
+
+.accordion .box .label::before{
+    content: '+';
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+
+}
+
+.accordion .box.active .label::before{
+    content: '-';
+}
+
+
+.accordion .box .content{
+    position: relative;
+    background: #F0EBE3;
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s;
+    overflow-y: auto;
+}
+
+.accordion .box.active .content{
+    height: 150px;
+    padding: 10px;
+    border: #443C32 solid 1px;
 }
