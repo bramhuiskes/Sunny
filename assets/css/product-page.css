@@ -8,6 +8,13 @@
     src: url(../fonts/nexa-bold.otf);
 }
 
+form{
+    margin-right: 50px;
+    width: 150px;
+    height: 40px;
+    display: flex;
+}
+
 .product-page{
     display: flex;
     align-items: normal;
@@ -37,13 +44,6 @@
 
 .blur-overlay:hover ~ .button-overlay, .button-overlay:hover{ 
     display: inline;
-}
-
-form{
-    margin-right: 50px;
-    width: 150px;
-    height: 40px;
-    display: flex;
 }
 
 .button-overlay{
