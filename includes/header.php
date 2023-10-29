@@ -12,12 +12,33 @@
       <div class="menu-align-stretch">
         <div class="menu-align-flex-start">
           <div class="menu-container">
-            <div class="menu-border"></div>
+            <?php
+              if(basename($_SERVER['PHP_SELF']) == "index.php")
+                echo "<div class=\"menu-border\"></div>";
+            ?>
             <div class="menu-home"><a href="./index.php">Home</a></div>
           </div>
+          <div class="menu-container">
+          <?php
+              if(basename($_SERVER['PHP_SELF']) == "product-page.php")
+                echo "<div class=\"menu-border\"></div>";
+            ?>
           <div class="menu-shop-all"><a href="./product-page.php">SHOP ALL</a></div>
+          </div>
+          <div class="menu-container">
+          <?php
+              if(basename($_SERVER['PHP_SELF']) == "collections.php")
+                echo "<div class=\"menu-border\"></div>";
+            ?>
           <div class="menu-collections"><a href="./collections.php">COLLECTIONS</a></div>
+          </div>
+          <div class="menu-container">
+          <?php
+              if(basename($_SERVER['PHP_SELF']) == "contact.php")
+                echo "<div class=\"menu-border\"></div>";
+            ?>
           <div class="menu-contact"><a href=./contact.php>CONTACT US</a></div>
+          </div>
         </div>
         <div class="cart" >
           <a href="./shopping-cart.php">
