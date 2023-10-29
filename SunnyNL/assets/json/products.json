@@ -1,0 +1,114 @@
+
+{
+    "100": {
+      "ProductName": "Blauw gestreepte sokken",
+      "ProductID": 100,
+      "ProductProperties": {
+        "Color": "Blauw",
+        "Size": 37,
+        "Price": 3.99,
+        "Collection": "Gestreept"
+      },
+      "ProductThumbnail": "./assets/img/products/sokken-stripes-blue.png"
+    },
+    "101": {
+      "ProductName": "Groen gestreepte sokken",
+      "ProductID": 101,
+      "ProductProperties": {
+        "Color": "Groen",
+        "Size": 37,
+        "Price": 3.99,
+        "Collection": "Gestreept"
+      },
+      "ProductThumbnail": "./assets/img/products/sokken-stripes-green.png"
+    },
+    "102": {
+      "ProductName": "Roze gestreepte sokken",
+      "ProductID": 102,
+      "ProductProperties": {
+        "Color": "Roze",
+        "Size": 37,
+        "Price": 3.99,
+        "Collection": "Gestreept"
+      },
+      "ProductThumbnail": "./assets/img/products/sokken-stripes-pink.png"
+    },
+    "103": {
+      "ProductName": "Rood gestreepte sokken",
+      "ProductID": 103,
+      "ProductProperties": {
+        "Color": "Rood",
+        "Size": 37,
+        "Price": 3.99,
+        "Collection": "Gestreept"
+      },
+      "ProductThumbnail": "./assets/img/products/sokken-stripes-red.png"
+    },
+    "104": {
+      "ProductName": "Geel gestreepte sokken",
+      "ProductID": 104,
+      "ProductProperties": {
+        "Color": "Geel",
+        "Size": 37,
+        "Price": 3.99,
+        "Collection": "Gestreept"
+      },
+      "ProductThumbnail": "./assets/img/products/sokken-stripes-yellow.png"
+    },
+    "200": {
+      "ProductName": "Blauwe uni kleur sokken",
+      "ProductID": 200,
+      "ProductProperties": {
+        "Color": "Blauw",
+        "Size": 37,
+        "Price": 3.99,
+        "Collection": "Uni kleur"
+      },
+      "ProductThumbnail": "./assets/img/products/sokken-uni-blue.png"
+    },
+    "201": {
+      "ProductName": "Groene uni kleur sokken",
+      "ProductID": 201,
+      "ProductProperties": {
+        "Color": "Groen",
+        "Size": 37,
+        "Price": 3.99,
+        "Collection": "Uni kleur"
+      },
+      "ProductThumbnail": "./assets/img/products/sokken-uni-green.png"
+    },
+    "202": {
+      "ProductName": "Roze uni kleur sokken",
+      "ProductID": 202,
+      "ProductProperties": {
+        "Color": "Roze",
+        "Size": 37,
+        "Price": 3.99,
+        "Collection": "Uni kleur"
+      },
+      "ProductThumbnail": "./assets/img/products/sokken-uni-pink.png"
+    },
+    "203": {
+      "ProductName": "Rode uni kleur sokken",
+      "ProductID": 203,
+      "ProductProperties": {
+        "Color": "Rood",
+        "Size": 37,
+        "Price": 3.99,
+        "Collection": "Uni kleur"
+      },
+      "ProductThumbnail": "./assets/img/products/sokken-uni-red.png"
+    },
+    "204": {
+      "ProductName": "Gele uni kleur sokken",
+      "ProductID": 204,
+      "ProductProperties": {
+        "Color": "Geel",
+        "Size": 37,
+        "Price": 3.99,
+        "Collection": "Uni kleur"
+      },
+      "ProductThumbnail": "./assets/img/products/sokken-uni-yellow.png"
+    }
+
+  }

@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+}
+.contact-container{
+    width: 791px;
+    height: 761px;
+    margin-top: 50px;
+    display: flex;
+    margin-bottom: 100px
+}
+.contact-container-left-side{
+    margin-left: 5%;
+}
+.contact-container .contact-hello{
+    font-size: 70pt;
+    width: 440px;
+    height: 194px;
+    margin-bottom: 60px;
+    font-family: "Nexa Bold";
+}
+.contact-container .contact-info{
+    font-size: 14pt;
+    width: 420px;
+    height: 245px;
+}
+.contact-container-left-side img{
+    width: 50%;
+    height: 20%;
+    position: relative;
+}
+.contact-container-right-side{
+    margin-left: 200px;
+    display: flex;
+}
+.contact-container-right-side .sunny-socks-red{
+    width: 400px;
+    height: 320px;
+}
+.contact-container-right-side .sunny-socks-uni-green-1{
+    margin-left: 10px;
+    width: 100%;
+    height: 75%;
+}
+.contact-message-container{
+    display: flex;
+    background-color: #212A17;
+    margin-left: 50px;
+    width: 1400px;
+    height: 700px;
+    flex-direction: column;
+    align-items: center;
+}
+.contact-message-container .send-message{
+    margin-top: 100px;
+    display: flex;
+    font-size: 32pt;
+    font-family: "Nexa Bold";
+    color: #F15A39;
+}
+.contact-message-container .send-message-text{
+    display: flex;
+    width: 250px;
+    text-align: center;
+    font-size: 12pt;
+    color: #F15A39;
+    margin-bottom: 50px;
+    margin-top: 20px
+}
+.input-container{
+    display: flex;
+    width: 600px;
+    height: 250px;
+    flex-direction: column;
+}
+.input-container .contact-name-email{
+    display: flex;
+    width: 600px;
+}
+.contact-name-email input{
+    border-bottom: 0;
+}
+.contact-message-container .input-container .contact-name{
+    background-color: #212A17;
+    border-color: #F15A39;
+    width: 300px;
+    height: 40px;
+    border-right: 10px;
+    color: #F15A39;
+}
+.contact-message-container .input-container .contact-email{
+    background-color: #212A17;
+    border-color: #F15A39;
+    width: 300px;
+    height: 40px;
+    color: #F15A39;
+}
+.contact-message-container .input-container .contact-message{
+    background-color: #212A17;
+    border-color: #F15A39;
+    width: 599px;
+    height: 200px;
+    color: #F15A39;
+    resize: none;
+}
+.contact-message-container .input-container .contact-submit{
+    position: relative;
+    top: 20px;
+    background-color: #212A17;
+    border: 1px solid #F15A39;
+    color: #F15A39;
+    width: fit-content;
+    padding: 1vh 3vh;
+    border-radius: 25px;
+}
+.contact-message-container .contact-name:focus{
+    outline: none !important;
+    border: 1px solid #F15A39;
+}
+.contact-message-container .contact-email:focus{
+    outline: none !important;
+    border: 1px solid #F15A39;  
+}
+.contact-message-container .contact-message:focus{
+    outline: none !important;
+    border: 1px solid #F15A39;
+}
+.contact-message-container .contact-submit:hover{
+    cursor: pointer;
+}
+::placeholder{
+    color: #F15A39;
+    opacity: 0.8;
+}
