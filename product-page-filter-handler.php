@@ -12,6 +12,15 @@ function generateRandomProducts(){
     }
 }
 
+function generatePaging(){
+    if(count(getFilterResult()) > 6){
+        echo "        <form method=\"get\" class=\"paging-nav\">
+        <input type=\"submit\" name=\"page\" value=\"1\" class=\"page-button\">
+        <input type=\"submit\" name=\"page\" value=\"2\" class=\"page-button\">
+    </form>";
+    }
+}
+
 function generateProductPage()
 {
     $productArray = getFilterResult();

@@ -59,18 +59,21 @@
                  ?>
                 <input type="submit" name="colorFilter" value="Yellow" class="filter-items">
                 </div>
-                <img src="assets/img/products/actie.png" alt="Sale ad" class="actie-img">
+                
             </form>
+            <?php if(isset($_GET['colorFilter']) || isset($_GET['collection'])){
+                echo "            <form class=\"reset-form\" method=\"get\" action=\"./product-page.php\">
+                <input type=\"submit\" value=\"Reset Filter Set\" class=\"reset-filter-items\">
+            </form>";
+            } ?>
+            <img src="assets/img/products/actie.png" alt="Sale ad" class="actie-img">
         </div>
         <div class="flex-container">
             <?php
             include('product-page-filter-handler.php');
             generateProductPage();
+            generatePaging();
             ?>
-        <form method="get" class="paging-nav">
-            <input type="submit" name="page" value="1" class="page-button">
-            <input type="submit" name="page" value="2" class="page-button">
-        </form>
         </div>
     </div>
     <?php
