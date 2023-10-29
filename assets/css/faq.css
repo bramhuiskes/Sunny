@@ -4,6 +4,16 @@ body{
     align-items: center;
 }
 
+.header-div{
+    position: relative;
+    margin: 10px 20px;
+    padding: 8px;
+}
+.header{
+    color: #443C32;
+    font-family: Nexa Bold, sans-serif;
+    font-size: 50px;
+}
 .accordion{
     width: 100%;
     justify-content: center;
@@ -12,20 +22,24 @@ body{
 
 }
 
-.accordion .box{
+.box{
+    max-width: 800px;
     position: relative;
     margin: 10px 20px;
     justify-content: center;
     align-items: center;
     margin-bottom: 25px;
+    border: #443C32 solid 1px;
+    padding: 8px;
+    border-radius: 10px;
+
 }
 
-.accordion .box .label{
+
+.label{
     position: relative;
-    padding: 10px;
+    padding: 30px;
     background: #F0EBE3;
-    border: solid #443C32 1px;
-    border-radius: 16px;
     color: #443C32;
     font-family: Nexa Bold, sans-serif;
     font-size: 20px;
@@ -33,21 +47,28 @@ body{
 
 }
 
-.accordion .box .label::before{
+.label::before{
     content: '+';
     position: absolute;
     top: 50%;
     right: 20px;
     transform: translateY(-50%);
-
+    border: #443C32 solid 1px;
+    border-radius: 5px;
+    padding: 8px;
 }
 
-.accordion .box.active .label::before{
+.active .label::before{
     content: '-';
+    padding: 8px;
+    border-radius: 5px;
+    border: #443C32 solid 1px;
+    border-radius: 5px;
+    
 }
 
 
-.accordion .box .content{
+.content{
     position: relative;
     background: #F0EBE3;
     height: 0;
@@ -56,8 +77,7 @@ body{
     overflow-y: auto;
 }
 
-.accordion .box.active .content{
+.active .content{
     height: 150px;
     padding: 10px;
-    border: #443C32 solid 1px;
 }

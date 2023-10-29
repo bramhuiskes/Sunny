@@ -16,8 +16,11 @@
         include "includes/header.php"
         ?>
     </div>
- 
+        
     <div class="accordion">
+        <div class="header-div">
+            <h2 class="header">FAQ's</h2>
+        </div>
         <div class="box">
             <div class="label">How long does the shipping takes?</div>
             <div class="content">
