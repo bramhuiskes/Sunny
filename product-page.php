@@ -16,14 +16,49 @@
         <div class="filter-collumn">
             <form method="get" action="./product-page.php" class="filter-container">
                 <h2 class="headings-filters">Category</h2>
-                <input type="submit" name="collection" value="Uni Color" class="filter-items">
-                <input type="submit" name="collection" value="Stripes" class="filter-items">
+                <div class="dot-container">
+                <?php if(isset($_GET['collection']) && $_GET['collection'] == "Uni Color")
+                    echo "&#x2022";
+                 ?>
+                 <input type="submit" name="collection" value="Uni Color" class="filter-items">
+                </div>
+                <div class="dot-container">
+                <?php if(isset($_GET['collection']) && $_GET['collection'] == "Stripes")
+                    echo "&#x2022";
+                 ?>
+                 <input type="submit" name="collection" value="Stripes" class="filter-items">
+                </div>
                 <h2 class="headings-filters">Colors</h2>
+                <div class="dot-container">
+                <?php if(isset($_GET['colorFilter']) && $_GET['colorFilter'] == "Green")
+                    echo "&#x2022";
+                 ?>
                 <input type="submit" name="colorFilter" value="Green" class="filter-items">
+                </div>
+                <div class="dot-container">
+                <?php if(isset($_GET['colorFilter']) && $_GET['colorFilter'] == "Blue")
+                    echo "&#x2022";
+                 ?>
                 <input type="submit" name="colorFilter" value="Blue" class="filter-items">
+                </div>
+                <div class="dot-container">
+                <?php if(isset($_GET['colorFilter']) && $_GET['colorFilter'] == "Pink")
+                    echo "&#x2022";
+                 ?>
                 <input type="submit" name="colorFilter" value="Pink" class="filter-items">
+                </div>
+                <div class="dot-container">
+                <?php if(isset($_GET['colorFilter']) && $_GET['colorFilter'] == "Red")
+                    echo "&#x2022";
+                 ?>
                 <input type="submit" name="colorFilter" value="Red" class="filter-items">
+                </div>
+                <div class="dot-container">
+                <?php if(isset($_GET['colorFilter']) && $_GET['colorFilter'] == "Yellow")
+                    echo "&#x2022";
+                 ?>
                 <input type="submit" name="colorFilter" value="Yellow" class="filter-items">
+                </div>
                 <img src="assets/img/products/actie.png" alt="Sale ad" class="actie-img">
             </form>
         </div>
@@ -32,9 +67,9 @@
             include('product-page-filter-handler.php');
             generateProductPage();
             ?>
-            <form method="get" class="paging-nav">
-                <input type="submit" name="page" value="1" class="page-button">
-                <input type="submit" name="page" value="2" class="page-button">
+        <form method="get" class="paging-nav">
+            <input type="submit" name="page" value="1" class="page-button">
+            <input type="submit" name="page" value="2" class="page-button">
         </form>
         </div>
     </div>

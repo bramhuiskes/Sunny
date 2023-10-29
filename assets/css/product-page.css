@@ -134,3 +134,7 @@ body{
     margin-top: 40px;
     border: 1px solid #443C32;
 }
+
+.dot-container{
+    display: inline;
+}
