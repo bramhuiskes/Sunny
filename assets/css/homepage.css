@@ -425,6 +425,11 @@ body {
     align-items: stretch;
     gap: 0px;
   }
+  .pink-edition-container {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0px;
+  }
 }
 
 .column-6 {
@@ -640,6 +645,43 @@ body {
     gap: 0px;
   }
 }
+.pink-edition-section {
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #271E28;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  flex-grow: 1;
+  padding-right: 20px;
+  flex-direction: column;
+  width: 100%;
+}
+
+@media (max-width: 991px) {
+  .pink-edition-section {
+    max-width: 100%;
+  }
+}
+
+.pink-edition-container {
+  align-self: start;
+  width: 860px;
+  max-width: 100%;
+}
+
+.pink-edition-images {
+  gap: 20px;
+  display: flex;
+}
+
+@media (max-width: 991px) {
+  .pink-edition-images {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0px;
+  }
+}
 
 .column-10 {
   display: flex;
@@ -709,6 +751,35 @@ body {
 
 @media (max-width: 991px) {
   .sale-text {
+    font-size: 40px;
+  }
+}
+
+.pink-edition-text-container {
+  display: flex;
+  margin-top: auto;
+  margin-bottom: auto;
+  flex-direction: column;
+}
+
+@media (max-width: 991px) {
+  .pink-edition-text-container {
+    margin-top: 50px;
+  }
+}
+
+.pink-edition-text {
+  color: #ffebeb;
+  text-align: center;
+  font-family: Nexa Bold, sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 52px;
+  align-self: stretch;
+}
+
+@media (max-width: 991px) {
+  .pink-edition-text {
     font-size: 40px;
   }
 }
@@ -1548,7 +1619,7 @@ h1 {
   position: absolute;
   color: #F15A39;
   font-size: 16px;
-  font-family: Nexa Bold;
+  font-family: Nexa Bold, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
   line-height: 18px;
@@ -1564,4 +1635,7 @@ h1 {
   position: absolute;
   transform: rotate(-90deg);
   transform-origin: 0 0
+}
+.scroll-text{
+  font-family: Nexa Bold, sans-serif;
 }

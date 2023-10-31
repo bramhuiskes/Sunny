@@ -44,7 +44,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     if ($_GET['product-key'] == $key) {
                         $productName = $products[$key]["ProductName"];
                         $imgUrl = $products[$key]["ProductThumbnail"];
-                        $img2Url = "./assets/img/products/Sunny-socks" . (($products[$key]["ProductProperties"]["Collection"] != "Stripes") ? "-uni" : "") .  "-" . strtolower($products[$key]["ProductProperties"]["Color"]) . ".jpg";
+                        $img2Url = "./assets/img/products/Sunny-socks" . (($products[$key]["ProductProperties"]["Collection"] != "Gestreept") ? "-uni" : "") .  "-" . strtolower($products[$key]["ProductProperties"]["Color"]) . ".jpg";
                     }
                 }
                 ?>
@@ -143,6 +143,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             </div>
         </div>
     </div>
+    <?php include "./includes/cta.php" ?>
     <?php include "./includes/footer.php" ?>
 </body>
 </html>

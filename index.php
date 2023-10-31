@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sunny | Home</title>
-  <link href="assets/css/includes/header.css" rel="stylesheet" />
+  <link href="assets/css/includes/header.css" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/homepage.css">
   <script src="./assets/js/product-page.js"></script>
 
@@ -22,8 +22,8 @@
         </div>
         <div class="column-2">
           <div class="socks-container">
-            <img loading="lazy" src="assets/img/illustrations/orange.png" class="orange-sock" />
-            <img loading="lazy" src="assets/img/illustrations/yellow.png" class="yellow-sock" />
+            <img loading="lazy" src="assets/img/illustrations/orange.png" class="orange-sock" alt="Orange Sock Illustration">
+            <img loading="lazy" src="assets/img/illustrations/yellow.png" class="yellow-sock" alt="Yellow Sock Illustration">
           </div>
         </div>
         <section class="buttons-section">
@@ -34,54 +34,52 @@
             <div class="our-collections-button"><a href="collections.php">OUR COLLECTIONS</a></div>
             <div class="our-vision-button">READ OUR VISION FOR A BETTER FUTURE</div>
           </div>
-      </div>
-    </div>
+    </div>  </section>
+
   </div>
-  </section>
   </div>
   <div class="scroll-section">
     <div class="scroll-inner">
       <div class="scroll-semi-container scroll-container">
         <div class="scroll-item">-</div>
-        <div class="scroll-item text">WORLDWIDE SHIPPING</div>
+        <div class="scroll-item scroll-text">WORLDWIDE SHIPPING</div>
         <div class="scroll-item">-</div>
-        <div class="scroll-item text">WORLDWIDE SHIPPING</div>
+        <div class="scroll-item scroll-text">WORLDWIDE SHIPPING</div>
         <div class="scroll-item">-</div>
-        <div class="scroll-item text">WORLDWIDE SHIPPING</div>
+        <div class="scroll-item scroll-text">WORLDWIDE SHIPPING</div>
         <div class="scroll-item">-</div>
-        <div class="scroll-item text">WORLDWIDE SHIPPING</div>
+        <div class="scroll-item scroll-text">WORLDWIDE SHIPPING</div>
         <div class="scroll-item">-</div>
-        <div class="scroll-item text">WORLDWIDE SHIPPING</div>
+        <div class="scroll-item scroll-text">WORLDWIDE SHIPPING</div>
         <div class="scroll-item">-</div>
-        <div class="scroll-item text">WORLDWIDE SHIPPING</div>
+        <div class="scroll-item scroll-text">WORLDWIDE SHIPPING</div>
         <div class="scroll-item">-</div>
-        <div class="scroll-item text">WORLDWIDE SHIPPING</div>
+        <div class="scroll-item scroll-text">WORLDWIDE SHIPPING</div>
         <div class="scroll-item">-</div>
-        <div class="scroll-item text">WORLDWIDE SHIPPING</div>
+        <div class="scroll-item scroll-text">WORLDWIDE SHIPPING</div>
         <div class="scroll-item">-</div>
-        <div class="scroll-item text">WORLDWIDE SHIPPING</div>
+        <div class="scroll-item scroll-text">WORLDWIDE SHIPPING</div>
         <div class="scroll-item">-</div>
 
       </div>
     </div>
+
     <div class="blocks-section">
       <div class="blocks-container">
         <div class="column-9">
-          <div class="sale-section">
-            <div class="sale-container">
-              <div class="sale-images">
+          <div class="pink-edition-section">
+            <div class="pink-edition-container">
+              <div class="pink-edition-images">
                 <div class="column-10">
-                  <img loading="lazy" src="assets/img/catalogus/red.jpg" class="red-sock" />
+                  <img loading="lazy" src="assets/img/catalogus/pink.jpg" class="red-sock" alt="Red Sock">
                 </div>
                 <div class="column-11">
-                  <div class="sale-text-container">
-                    <div class="sale-text">
-                      Sale
-                      <br />
-                      Up to 50% off
+                  <div class="pink-edition-text-container">
+                    <div class="pink-edition-text">
+                      Our New Pink Edition
                     </div>
                     <div class="shop-now-button">
-                      <div class="shop-now-text">SHOP NOW</div>
+                      <a href="product-page.php?colorFilter=Pink"><div class="shop-now-text">SHOP NOW</div></a>
                     </div>
                   </div>
                 </div>
@@ -94,7 +92,7 @@
             <div class="sale-container">
               <div class="sale-images">
                 <div class="column-10">
-                  <img loading="lazy" src="assets/img/catalogus/red.jpg" class="red-sock" />
+                  <img loading="lazy" src="assets/img/catalogus/red.jpg" class="red-sock" alt="Red Sock">
                 </div>
                 <div class="column-11">
                   <div class="sale-text-container">
@@ -104,7 +102,7 @@
                       Up to 50% off
                     </div>
                     <div class="shop-now-button">
-                      <div class="shop-now-text">SHOP NOW</div>
+                      <a href="product-page.php"><div class="shop-now-text">SHOP NOW</div></a>
                     </div>
                   </div>
                 </div>
@@ -146,13 +144,11 @@
             <div class="value-block-container">
               <div class="value-block-title-container">
                 <div class="value-block-title-inner">
-                  <div class="value-block-title">Positive</div>
+                  <div class="value-block-title">Colorful</div>
                   <img loading="lazy" src="assets/img/svg/arrow.svg" class="arrow" />
                 </div>
                 <div class="value-description">
-                  Positivity is part of our DNA. Sunny likes to look on the
-                  bright side. Every problem is an oppurtunity to come up with a
-                  solution.
+                We like to add some color to one of the the most everyday moments of life: putting on your socks. We add literal color by designing simple basic white socks a pop of color.
                 </div>
               </div>
             </div>
@@ -161,13 +157,11 @@
             <div class="value-block-container">
               <div class="value-block-title-container">
                 <div class="value-block-title-inner">
-                  <div class="value-block-title">Positive</div>
+                  <div class="value-block-title">Beneficial</div>
                   <img loading="lazy" src="assets/img/svg/arrow.svg" class="arrow" />
                 </div>
                 <div class="value-description">
-                  Positivity is part of our DNA. Sunny likes to look on the
-                  bright side. Every problem is an oppurtunity to come up with a
-                  solution.
+                We like win-win situations. When we produce and sell our socks it is beneficial for everyone involved. The sells person has a nice job. The raw materi- als are gained in such a way it does not harm the earth. The production is done with the enivironment in mind and with an honest waige for the people working in the factories. The shops that sell our sock make a fair provit. And last but not least: the costumer gets high quality socks for a fair price.
                 </div>
               </div>
             </div>
