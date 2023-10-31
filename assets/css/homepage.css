@@ -368,15 +368,9 @@ body {
   border-bottom: 1px solid #484036;
   align-self: stretch;
   display: flex;
-  width: 100%;
+  width:fit-content;
   padding-top: 12px;
   padding-bottom: 12px;
-}
-
-@media (max-width: 991px) {
-  .scroll-inner {
-    max-width: 100%;
-  }
 }
 
 .scroll-semi-container {
@@ -385,32 +379,22 @@ body {
   margin-top: -2px;
   margin-bottom: 1px;
   align-items: flex-start;
-  justify-content: space-between;
-  gap: 14px;
 }
 
-@media (max-width: 991px) {
-  .scroll-semi-container {
-    max-width: 100%;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-}
 
 .scroll-item {
   display: inline-block;
   padding: 0 10px;
-  border-radius: 2px;
-  background-color: var(--Main-Orange, #f15a39);
   align-self: center;
-  display: flex;
   margin-top: auto;
   margin-bottom: auto;
-  width: 2px;
-  height: 2px;
   flex-direction: column;
   flex-grow: 1;
   flex-basis: auto;
+  color: var(--Main-Orange, #f15a39);
+}
+.scroll-item.text {
+  min-width: 180px;
 }
 
 @media (max-width: 991px) {
@@ -1493,7 +1477,6 @@ h1 {
   text-align: center;
   margin: 50px;
   font-family: "NexaBold";
-<<<<<<< HEAD
 }
 
 .buttons-section {
@@ -1581,6 +1564,4 @@ h1 {
   position: absolute;
   transform: rotate(-90deg);
   transform-origin: 0 0
-=======
->>>>>>> 71b388cb54a03eb6ca151b4223ef987a7dc6a7da
 }
