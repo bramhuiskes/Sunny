@@ -33,7 +33,6 @@
             <div class="our-collections-divider"></div>
             <div class="our-collections-button"><a href="collections.php">OUR COLLECTIONS</a></div>
             <div class="our-vision-button">READ OUR VISION FOR A BETTER FUTURE</div>
-
           </div>
       </div>
     </div>
@@ -117,13 +116,6 @@
         </div>
       </div>
     </div>
-  </div>
-  <h1>Products</h1>
-  <div class="product-container">
-    <?php
-      include("product-page-filter-handler.php");
-      generateRandomProducts();
-    ?>
   </div>
   <div class="values-section">
     <div class="values-title-container">

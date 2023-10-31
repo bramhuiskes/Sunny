@@ -10,13 +10,8 @@
 
 </head>
 <body>
-    <div>
-        
-        <?php
-        include "includes/header.php"
-        ?>
-    </div>
-        
+<?php include "./includes/header.php" ?>
+
     <div class="accordion">
         <div class="header-div">
             <h2 class="header">FAQ's</h2>
