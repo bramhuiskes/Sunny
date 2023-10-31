@@ -144,7 +144,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         </div>
     </div>
     <?php include "./includes/cta.php" ?>
-
     <?php include "./includes/footer.php" ?>
 </body>
 </html>
