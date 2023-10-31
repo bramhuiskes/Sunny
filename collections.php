@@ -27,6 +27,10 @@
             </a>
         </div>
     </div>
+
+    <?php
+        include "./includes/cta.php"
+    ?>
     <?php
     include('./includes/footer.php');
     ?>

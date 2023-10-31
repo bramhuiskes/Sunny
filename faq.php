@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="assets/css/faq.css">
+    <link rel="stylesheet" href="./assets/css/faq.css">
 
     <link rel="stylesheet" href="./assets/css/style.css" type="text/css">
 
@@ -59,7 +59,16 @@
             </div>
         </div>
     </div>
-
+    <div class="cant-find">
+        <div class="cant-find-container"> 
+            <div>
+                <h1 class="heading-cant-find">Can't find your question here?</h1>
+            </div>
+            <div class="contact-button-container">
+                <button class="contact-button" onclick="location.href = 'contact.php';">Contact us</button>
+            </div>
+        </div>
+    </div>
     <?php
         include "includes/cta.php"
     ?>
