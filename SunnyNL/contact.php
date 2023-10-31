@@ -12,7 +12,7 @@
     <div class="contact-container">
         <div class="contact-container-left-side">
             <p class="contact-hello">Zeg hallo tegen ons</p>
-            <p class="contact-info">Has ut fabulas detraxit, maluisset mel id. Eam ad option albucius cu, exerci scripta, torquatos at mea. Duis veniam tantas vim ut mei unum. <br><br>4976 Oakway Lane <br>Los Angeles <br><br>123-456-7899 <br><br>Or send us a message</p> 
+            <p class="contact-info">Has ut fabulas detraxit, maluisset mel id. Eam ad option albucius cu, exerci scripta, torquatos at mea. Duis veniam tantas vim ut mei unum. <br><br>4976 Oakway Lane <br>Los Angeles <br><br>123-456-7899 <br><br>Of stuur ons een bericht</p> 
             <img src="assets/img/svg/contact-us-arrow.svg" alt="contact-us-arrow.svgs">
         </div>
         <div class="contact-container-right-side">
