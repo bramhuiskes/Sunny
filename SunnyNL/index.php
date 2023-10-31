@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sunny | Home</title>
   <link href="assets/css/includes/header.css" rel="stylesheet" />
-  <link rel="stylesheet" href="assets/css/homepage.css">
+  <link rel="stylesheet" href="../assets/css/homepage.css">
 
 </head>
 
@@ -49,28 +49,26 @@
   <div class="scroll-section">
     <div class="scroll-inner">
       <div class="scroll-semi-container scroll-container">
-        <div class="scroll-item"></div>
-        <div class="scroll-item">WORLDWIDE SHIPPING</div>
-        <div class=" scroll-item"></div>
-        <div class="scroll-item">WORLDWIDE SHIPPING</div>
-        <div class=" scroll-item"></div>
-        <div class=" scroll-item">WORLDWIDE SHIPPING</div>
-        <div class=" scroll-item"></div>
-        <div class=" scroll-item">WORLDWIDE SHIPPING</div>
-        <div class=" scroll-item"></div>
-        <div class=" scroll-item">WORLDWIDE SHIPPING</div>
-        <div class=" scroll-item"></div>
-        <div class=" scroll-item">WORLDWIDE SHIPPING</div>
-        <div class=" scroll-item"></div>
-        <div class=" scroll-item">WORLDWIDE SHIPPING</div>
-        <div class=" scroll-item"></div>
-        <div class=" scroll-item">WORLDWIDE SHIPPING</div>
-        <div class=" scroll-item"></div>
-        <div class=" scroll-item">WORLDWIDE SHIPPING</div>
-        <div class=" scroll-item"></div>
-        <div class=" scroll-item">WORLDWIDE SHIPPING</div>
-        <div class=" scroll-item"></div>
-        <div class=" scroll-item">WORLDWIDE SHIPPING</div>
+      <div class="scroll-item">-</div>
+        <div class="scroll-item text">WORLDWIDE SHIPPING</div>
+        <div class="scroll-item">-</div>
+        <div class="scroll-item text">WORLDWIDE SHIPPING</div>
+        <div class="scroll-item">-</div>
+        <div class="scroll-item text">WORLDWIDE SHIPPING</div>
+        <div class="scroll-item">-</div>
+        <div class="scroll-item text">WORLDWIDE SHIPPING</div>
+        <div class="scroll-item">-</div>
+        <div class="scroll-item text">WORLDWIDE SHIPPING</div>
+        <div class="scroll-item">-</div>
+        <div class="scroll-item text">WORLDWIDE SHIPPING</div>
+        <div class="scroll-item">-</div>
+        <div class="scroll-item text">WORLDWIDE SHIPPING</div>
+        <div class="scroll-item">-</div>
+        <div class="scroll-item text">WORLDWIDE SHIPPING</div>
+        <div class="scroll-item">-</div>
+        <div class="scroll-item text">WORLDWIDE SHIPPING</div>
+        <div class="scroll-item">-</div>
+
       </div>
     </div>
     <div class="blocks-section">
