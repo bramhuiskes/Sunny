@@ -121,7 +121,6 @@ body{
 }
 
 .contact-button:hover{
-    border-bottom: #F15A39 solid 3px;
     cursor: pointer;
     
 }
