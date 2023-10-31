@@ -1,0 +1,136 @@
+@font-face {
+    font-family: "NexaLight";
+    src: url(../fonts/nexa-light.otf);
+}
+
+@font-face {
+    font-family: "NexaBold";
+    src: url(../fonts/nexa-bold.otf);
+}
+
+.product-page{
+    display: flex;
+    align-items: normal;
+}
+.headings-filters{
+    font-family: "NexaBold", sans-serif;
+    font-size: 33px;
+    color: #443C32;
+    margin-top: 15px;
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 150px;
+    margin-top: 100px;
+    max-width: 975px;
+    min-width: 975px;
+    min-height: 1000px;
+}
+.blur-overlay:hover{
+    filter: blur(5px);
+    transition: .2s ease-in;
+    cursor: pointer;
+}
+
+.blur-overlay:hover ~ .button-overlay, .button-overlay:hover{ 
+    display: inline;
+}
+
+form{
+    margin-right: 50px;
+    width: 150px;
+    height: 40px;
+    display: flex;
+}
+
+.button-overlay{
+    display: none;
+    position: absolute;
+    top: 50%;
+    width: calc(100% - 88px);
+    text-align: center;
+    pointer-events: none;
+    padding: 1vh 1vh;
+    border-radius: 25px;
+    background-color: #F0ECE3;
+    border: 1px solid black;
+}
+
+.product{
+    border: 1px solid #443C32;
+    width: fit-content;
+    padding: 44px;
+    max-height: 540px;
+    position: relative;
+}
+
+.product img{
+    width: 235px;
+
+}
+
+.product p:nth-child(2){
+    font-family: "NexaBold";
+    font-size: larger;
+}
+
+.product p:nth-child(3){
+    font-family: "NexaLight";
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.filter-container{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.filter-collumn{
+    margin-left: 150px;
+    margin-top: 80px;
+}
+
+.actie-img{
+    margin-top: 100px;
+    transform: scale(1.3);
+}
+
+.paging-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100%;
+    margin-bottom: 100px;
+
+}
+
+.filter-items{
+    border: none;
+    font-family: Nexa Light, sans-serif;
+    background-color: #F0EBE3;
+    font-size: 20px;
+    margin-left: 15px;
+    margin-top: 10px;
+    color: #443C32;
+    cursor: pointer;
+    text-align: left;
+}
+
+body{
+    background-color: #F0EBE3;
+}
+
+.page-button{
+    width: 50px;
+    height: 50px;
+    background-color: #F0EBE3;
+    margin-top: 40px;
+    border: 1px solid #443C32;
+}

@@ -1,3 +1,13 @@
+@font-face {
+  font-family: "NexaLight";
+  src: url(../fonts/nexa-light.otf);
+}
+
+@font-face {
+  font-family: "NexaBold";
+  src: url(../fonts/nexa-bold.otf);
+}
+
 .scroll-container {
   width: max-content;
   white-space: nowrap;
@@ -1414,15 +1424,74 @@ body {
   margin-top: 10px;
 }
 
-#view-cart-button {
-  background: #f0ebe3;
-  color: black;
-  border: 1px solid #f15a39;
-  border-radius: 4px;
-  padding: 10px;
-  margin-top: 10px;
-  cursor: pointer;
+#view-cart-button{
+background: #f0ebe3;
+color: black;
+border: 1px solid #f15a39;
+border-radius: 4px;
+padding: 10px;
+margin-top: 10px;
+cursor: pointer;
+width: 100%;
+  }
+
+.product-container{
   width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.blur-overlay:hover{
+  filter: blur(5px);
+  transition: .2s ease-in;
+  cursor: pointer;
+}
+
+.blur-overlay:hover ~ .button-overlay, .button-overlay:hover{ 
+    display: inline;
+}
+
+.button-overlay{
+    display: none;
+    position: absolute;
+    top: 50%;
+    width: calc(100% - 88px);
+    text-align: center;
+    pointer-events: none;
+    padding: 1vh 1vh;
+    border-radius: 25px;
+    background-color: #F0ECE3;
+    border: 1px solid black;
+}
+
+.product{
+    border: 1px solid #443C32;
+    width: fit-content;
+    padding: 44px;
+    max-height: 540px;
+    position: relative;
+}
+
+.product img{
+    width: 235px;
+
+}
+
+.product p:nth-child(2){
+    font-family: "NexaBold";
+    font-size: larger;
+}
+
+.product p:nth-child(3){
+    font-family: "NexaLight";
+}
+
+h1{
+  text-align: center;
+  margin: 50px;
+  font-family: "NexaBold";
 }
 
 .buttons-section {

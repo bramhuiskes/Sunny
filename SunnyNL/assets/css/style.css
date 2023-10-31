@@ -1,0 +1,65 @@
+@font-face {
+    font-family: "Nexa Bold";
+    src: url(../fonts/nexa-bold.otf);
+}
+@font-face {
+    font-family: "Nexa Light";
+    src: url(../fonts/nexa-light.otf);
+}
+*{
+    margin: 0;
+    font-family: "Nexa Light", sans-serif;
+}
+body{
+    background-color: #F0EBE3;
+    overflow-x: hidden;
+}
+
+a.btn{
+    min-width: 150px;
+    display: block;
+    background-color: #443c32;
+    color: #FFF;
+    height: 50px;
+    border-radius: calc(50px/2);
+    text-align: center;
+    line-height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    width: fit-content;
+}
+
+div.messageShoppingcart{
+    position: fixed;
+    top: 100px;
+    right: 25px;
+    display: none;
+}
+div.messageShoppingcart.active{
+    position: fixed;
+    top: 100px;
+    right: 30px;
+    display: unset;
+    width: 280px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: lightgreen;
+    opacity: 0;
+    animation-delay: 3s;
+    animation: hideDiv 3s ease-in;
+}
+@keyframes hideDiv{
+    from {
+        opacity: 1;
+        display: unset;
+    }
+    to{
+        opacity: 0;
+        display: unset;
+    }
+}
+div.messageShoppingcart p{
+    text-align: center;
+}

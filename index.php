@@ -7,6 +7,7 @@
   <title>Sunny | Home</title>
   <link href="assets/css/includes/header.css" rel="stylesheet" />
   <link rel="stylesheet" href="assets/css/homepage.css">
+  <script src="./assets/js/product-page.js"></script>
 
 </head>
 
@@ -116,6 +117,13 @@
         </div>
       </div>
     </div>
+  </div>
+  <h1>Products</h1>
+  <div class="product-container">
+    <?php
+      include("product-page-filter-handler.php");
+      generateRandomProducts();
+    ?>
   </div>
   <div class="values-section">
     <div class="values-title-container">

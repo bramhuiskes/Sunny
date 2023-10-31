@@ -1,5 +1,26 @@
 <?php
 
+function generateRandomProducts(){
+    $productArray = getFilterResult();
+    $rndInt = rand(0,6);
+
+    foreach (array_slice($productArray, $rndInt, 4) as $value) {
+        echo "<div class=\"product\"><div class=\"blur-overlay\" onclick=\"redirectToProduct(" . $value['ProductID'] . ")\"><img src=" . $value['ProductThumbnail'] . " alt=\"Intel sok\">";
+        echo "<p>" . $value['ProductName'] . "</p>";
+        echo "<p>" . $value['ProductProperties']['Price'] . "</p>";
+        echo "</div><button class=\"button-overlay\">Go to Product</button></div>";
+    }
+}
+
+function generatePaging(){
+    if(count(getFilterResult()) > 6){
+        echo "        <form method=\"get\" class=\"paging-nav\">
+        <input type=\"submit\" name=\"page\" value=\"1\" class=\"page-button\">
+        <input type=\"submit\" name=\"page\" value=\"2\" class=\"page-button\">
+    </form>";
+    }
+}
+
 function generateProductPage()
 {
     $productArray = getFilterResult();
@@ -69,4 +90,3 @@ function getFilterResult()
         return $queriedProducts;
     }
 }
-?>
