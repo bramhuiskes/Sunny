@@ -4,13 +4,13 @@ body{
     align-items: center;
 }
 
-.header-div{
+.heading-div{
     position: relative;
     margin: 10px 20px;
     padding: 8px;
     margin-bottom: 55px;
 }
-.header{
+.heading{
     color: #443C32;
     font-family: Nexa Bold, sans-serif;
     font-size: 60px;
@@ -82,3 +82,49 @@ body{
     height: 150px;
     padding: 10px;
 }
+
+.cant-find{
+    background-color: #212A17;
+    height: 400px;
+    justify-content: center;
+    display: flex;
+}
+
+.cant-find-container{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 25px;
+}
+
+.heading-cant-find{
+    color: #F15A39;
+    font-family: Nexa Bold, sans-serif;
+    font-size: 60px;
+
+    text-align: center;
+}
+
+.contact-button-container{
+    text-align: center;
+}
+.contact-button{
+    border: #F15A39 solid 1px;
+    border-radius: 25px;
+    background-color: #212A17;
+    color: #F15A39;
+    padding: 10px;
+    font-family: Nexa Bold, sans-serif;
+    font-size: 20px;
+    align-self: center;
+}
+
+.contact-button:hover{
+    border-bottom: #F15A39 solid 3px;
+    cursor: pointer;
+    
+}
+
+
+
