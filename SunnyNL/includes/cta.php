@@ -14,7 +14,7 @@
             <p class="question">Heb je een vraag?</p>
             <div class="buttons">
                 <div class="button-faq">
-                    <form method="POST" action="#">
+                    <form method="POST" action="faq.php">
                         <input type="submit" name="button-faq" value="Bekijk onze FAQ">
                     </form>
                 </div>
