@@ -29,11 +29,11 @@
         <section class="buttons-section">
           <h6>&nbsp;</h6>
           <div class="buttons-container">
-            <div class="view-all-button"><a href="product-page.php">view all products</a></div>
+            <div class="view-all-button"><a href="product-page.php">Bekijk alle producten</a></div>
             <div class="view-all-divider"></div>
             <div class="our-collections-divider"></div>
-            <div class="our-collections-button"><a href="collections.php">OUR COLLECTIONS</a></div>
-            <div class="our-vision-button">READ OUR VISION FOR A BETTER FUTURE</div>
+            <div class="our-collections-button"><a href="collections.php">Onze collecties</a></div>
+            <div class="our-vision-button">Lees onze visie voor een betere toekomst</div>
           </div>
         </section>
       </div>
@@ -43,23 +43,23 @@
     <div class="scroll-inner">
       <div class="scroll-semi-container scroll-container">
         <div class="scroll-item">-</div>
-        <div class="scroll-item scroll-text">WORLDWIDE SHIPPING</div>
+        <div class="scroll-item scroll-text">INTERNATIONALE VERZENDING</div>
         <div class="scroll-item">-</div>
-        <div class="scroll-item scroll-text">WORLDWIDE SHIPPING</div>
+        <div class="scroll-item scroll-text">INTERNATIONALE VERZENDING</div>
         <div class="scroll-item">-</div>
-        <div class="scroll-item scroll-text">WORLDWIDE SHIPPING</div>
+        <div class="scroll-item scroll-text">INTERNATIONALE VERZENDING</div>
         <div class="scroll-item">-</div>
-        <div class="scroll-item scroll-text">WORLDWIDE SHIPPING</div>
+        <div class="scroll-item scroll-text">INTERNATIONALE VERZENDING</div>
         <div class="scroll-item">-</div>
-        <div class="scroll-item scroll-text">WORLDWIDE SHIPPING</div>
+        <div class="scroll-item scroll-text">INTERNATIONALE VERZENDING</div>
         <div class="scroll-item">-</div>
-        <div class="scroll-item scroll-text">WORLDWIDE SHIPPING</div>
+        <div class="scroll-item scroll-text">INTERNATIONALE VERZENDING</div>
         <div class="scroll-item">-</div>
-        <div class="scroll-item scroll-text">WORLDWIDE SHIPPING</div>
+        <div class="scroll-item scroll-text">INTERNATIONALE VERZENDING</div>
         <div class="scroll-item">-</div>
-        <div class="scroll-item scroll-text">WORLDWIDE SHIPPING</div>
+        <div class="scroll-item scroll-text">INTERNATIONALE VERZENDING</div>
         <div class="scroll-item">-</div>
-        <div class="scroll-item scroll-text">WORLDWIDE SHIPPING</div>
+        <div class="scroll-item scroll-text">INTERNATIONALE VERZENDING</div>
         <div class="scroll-item">-</div>
 
       </div>
@@ -77,11 +77,11 @@
                 <div class="column-11">
                   <div class="pink-edition-text-container">
                     <div class="pink-edition-text">
-                      Our New Pink Edition
+                      Onze nieuwe roze editie
                     </div>
                     <div class="shop-now-button">
                       <a href="product-page.php?colorFilter=Pink">
-                        <div class="shop-now-text">SHOP NOW</div>
+                        <div class="shop-now-text">Winkelen</div>
                       </a>
                     </div>
                   </div>
@@ -100,13 +100,13 @@
                 <div class="column-11">
                   <div class="sale-text-container">
                     <div class="sale-text">
-                      Sale
+                      Aanbieding
                       <br>
-                      Up to 50% off
+                      Tot 50% korting
                     </div>
                     <div class="shop-now-button">
                       <a href="product-page.php">
-                        <div class="shop-now-text">SHOP NOW</div>
+                        <div class="shop-now-text">Winkelen</div>
                       </a>
                     </div>
                   </div>
@@ -118,29 +118,27 @@
       </div>
     </div>
   </div>
-  <h1>Products</h1>
+  <h1>Producten</h1>
   <div class="product-container">
     <?php
-    include("product-page-filter-handler.php");
+    include("./product-page-filter-handler.php");
     generateRandomProducts();
     ?>
   </div>
   <div class="values-section">
     <div class="values-title-container">
-      <div class="values-title">Our Values</div>
+      <div class="values-title">Onze Waarden</div>
       <div class="values-container">
         <div class="value-columns-container">
           <div class="column-12">
             <div class="value-block-container">
               <div class="value-block-title-container">
                 <div class="value-block-title-inner">
-                  <div class="value-block-title">Positive</div>
+                  <div class="value-block-title">Positiviteit</div>
                   <img loading="lazy" src="assets/img/svg/arrow.svg" class="arrow" alt="Arrow">
                 </div>
                 <div class="value-description">
-                  Positivity is part of our DNA. Sunny likes to look on the
-                  bright side. Every problem is an oppurtunity to come up with a
-                  solution.
+                Positiviteit maakt deel uit van ons DNA. Sunny bekijkt het graag van de positieve kant. Elk probleem is een kans om tot een nieuwe oplossing te komen.
                 </div>
               </div>
             </div>
@@ -149,11 +147,11 @@
             <div class="value-block-container">
               <div class="value-block-title-container">
                 <div class="value-block-title-inner">
-                  <div class="value-block-title">Colorful</div>
+                  <div class="value-block-title">Kleurrijk</div>
                   <img loading="lazy" src="assets/img/svg/arrow.svg" class="arrow" alt="Arrow">
                 </div>
                 <div class="value-description">
-                  We like to add some color to one of the the most everyday moments of life: putting on your socks. We add literal color by designing simple basic white socks a pop of color.
+                Wij voegen graag wat kleur toe aan een van de meest alledaagse momenten van het leven: het aantrekken van je sokken. We voegen kleur toe door eenvoudige witte sokken te ontwerpen met een vleugje kleur.
                 </div>
               </div>
             </div>
@@ -162,11 +160,11 @@
             <div class="value-block-container">
               <div class="value-block-title-container">
                 <div class="value-block-title-inner">
-                  <div class="value-block-title">Beneficial</div>
+                  <div class="value-block-title">Gunstig</div>
                   <img loading="lazy" src="assets/img/svg/arrow.svg" class="arrow" alt="Arrow">
                 </div>
                 <div class="value-description">
-                  We like win-win situations. When we produce and sell our socks it is beneficial for everyone involved. The sells person has a nice job. The raw materi- als are gained in such a way it does not harm the earth. The production is done with the enivironment in mind and with an honest waige for the people working in the factories. The shops that sell our sock make a fair provit. And last but not least: the costumer gets high quality socks for a fair price.
+                Wij houden van win-winsituaties. Wanneer wij onze sokken produceren en verkopen, is dat gunstig voor alle betrokkenen. De verkoper heeft een leuke baan. De grondstoffen worden zo gewonnen dat ze de aarde niet schaden. Bij de productie wordt rekening gehouden met het milieu en met een eerlijk loon voor de mensen die in de fabrieken werken. De winkels die onze sokken verkopen, verdienen een eerlijke winst. En natuurlijk krijgt de klant sokken van hoge kwaliteit voor een eerlijke prijs.
                 </div>
               </div>
             </div>
