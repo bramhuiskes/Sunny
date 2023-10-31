@@ -57,7 +57,11 @@ body {
   font-family: Nexa Bold, sans-serif;
   font-size: 250px;
   font-weight: 700;
+<<<<<<< HEAD
   margin-top: 150px;
+=======
+  margin-top: 100px;
+>>>>>>> 71b388cb54a03eb6ca151b4223ef987a7dc6a7da
   line-height: 200px;
   text-transform: uppercase;
   align-self: stretch;
@@ -375,7 +379,11 @@ body {
 
 @media (max-width: 991px) {
   .scroll-inner {
+<<<<<<< HEAD
     max-width: 100%;
+=======
+    /* width: 300%; */
+>>>>>>> 71b388cb54a03eb6ca151b4223ef987a7dc6a7da
   }
 }
 
@@ -385,6 +393,7 @@ body {
   margin-top: -2px;
   margin-bottom: 1px;
   align-items: flex-start;
+<<<<<<< HEAD
   justify-content: space-between;
   gap: 14px;
 }
@@ -395,17 +404,23 @@ body {
     flex-wrap: wrap;
     justify-content: center;
   }
+=======
+>>>>>>> 71b388cb54a03eb6ca151b4223ef987a7dc6a7da
 }
 
 .scroll-item {
   display: inline-block;
   padding: 0 10px;
   border-radius: 2px;
+<<<<<<< HEAD
   background-color: var(--Main-Orange, #f15a39);
+=======
+>>>>>>> 71b388cb54a03eb6ca151b4223ef987a7dc6a7da
   align-self: center;
   display: flex;
   margin-top: auto;
   margin-bottom: auto;
+<<<<<<< HEAD
   width: 2px;
   height: 2px;
   flex-direction: column;
@@ -413,6 +428,18 @@ body {
   flex-basis: auto;
 }
 
+=======
+  flex-direction: column;
+  flex-grow: 1;
+  flex-basis: auto;
+  color: var(--Main-Orange, #f15a39);
+}
+
+.scroll-item.text {
+  min-width: 180px;
+}
+
+>>>>>>> 71b388cb54a03eb6ca151b4223ef987a7dc6a7da
 @media (max-width: 991px) {
   .scroll-semi-container {
     text-wrap: initial;
@@ -1424,18 +1451,18 @@ body {
   margin-top: 10px;
 }
 
-#view-cart-button{
-background: #f0ebe3;
-color: black;
-border: 1px solid #f15a39;
-border-radius: 4px;
-padding: 10px;
-margin-top: 10px;
-cursor: pointer;
-width: 100%;
-  }
+#view-cart-button {
+  background: #f0ebe3;
+  color: black;
+  border: 1px solid #f15a39;
+  border-radius: 4px;
+  padding: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  width: 100%;
+}
 
-.product-container{
+.product-container {
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -1443,55 +1470,57 @@ width: 100%;
   justify-content: center;
 }
 
-.blur-overlay:hover{
+.blur-overlay:hover {
   filter: blur(5px);
   transition: .2s ease-in;
   cursor: pointer;
 }
 
-.blur-overlay:hover ~ .button-overlay, .button-overlay:hover{ 
-    display: inline;
+.blur-overlay:hover~.button-overlay,
+.button-overlay:hover {
+  display: inline;
 }
 
-.button-overlay{
-    display: none;
-    position: absolute;
-    top: 50%;
-    width: calc(100% - 88px);
-    text-align: center;
-    pointer-events: none;
-    padding: 1vh 1vh;
-    border-radius: 25px;
-    background-color: #F0ECE3;
-    border: 1px solid black;
+.button-overlay {
+  display: none;
+  position: absolute;
+  top: 50%;
+  width: calc(100% - 88px);
+  text-align: center;
+  pointer-events: none;
+  padding: 1vh 1vh;
+  border-radius: 25px;
+  background-color: #F0ECE3;
+  border: 1px solid black;
 }
 
-.product{
-    border: 1px solid #443C32;
-    width: fit-content;
-    padding: 44px;
-    max-height: 540px;
-    position: relative;
+.product {
+  border: 1px solid #443C32;
+  width: fit-content;
+  padding: 44px;
+  max-height: 540px;
+  position: relative;
 }
 
-.product img{
-    width: 235px;
+.product img {
+  width: 235px;
 
 }
 
-.product p:nth-child(2){
-    font-family: "NexaBold";
-    font-size: larger;
+.product p:nth-child(2) {
+  font-family: "NexaBold";
+  font-size: larger;
 }
 
-.product p:nth-child(3){
-    font-family: "NexaLight";
+.product p:nth-child(3) {
+  font-family: "NexaLight";
 }
 
-h1{
+h1 {
   text-align: center;
   margin: 50px;
   font-family: "NexaBold";
+<<<<<<< HEAD
 }
 
 .buttons-section {
@@ -1579,4 +1608,6 @@ h1{
   position: absolute;
   transform: rotate(-90deg);
   transform-origin: 0 0
+=======
+>>>>>>> 71b388cb54a03eb6ca151b4223ef987a7dc6a7da
 }
