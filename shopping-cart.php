@@ -98,10 +98,7 @@
                 </p>";
 
                 $discount = $price/11.97;
-                if(floor($discount) != $discount)
-                {
-                    $discount -= 1;
-                }
+                $discount = floor($discount);
                 $discount = ((((int)round($discount)))*1.98);   
                 $price -= $discount;
                 if($price == 0)
@@ -115,7 +112,6 @@
                     <a href=\"#\" class=\"shop\">Shop more</a>
                     <a href=\"#\" class=\"submit\">Checkout</a>
                 </div>";
-
                 echo "</div>";
             } 
             else 

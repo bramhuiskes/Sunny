@@ -20,6 +20,7 @@
           <div class="menu-contact"><a href=./contact.php>CONTACT US</a></div>
         </div>
         <div class="cart" >
+          <a href="./shopping-cart.php">
           <img
             loading="lazy"
             src="assets/img/svg/shopping-cart.svg"
@@ -27,6 +28,7 @@
             id="cart-button"
             onclick="dropdown.style.display = 'block';"
           />
+          </a>
           <div class="cart-count"><?php include('cookie-item-count.php'); echo getCartItemCount(); ?></div>
 
     
