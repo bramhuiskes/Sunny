@@ -1,5 +1,17 @@
 <?php
 
+function generateRandomProducts(){
+    $productArray = getFilterResult();
+    $rndInt = rand(0,6);
+
+    foreach (array_slice($productArray, $rndInt, 4) as $value) {
+        echo "<div class=\"product\"><div class=\"blur-overlay\" onclick=\"redirectToProduct(" . $value['ProductID'] . ")\"><img src=" . $value['ProductThumbnail'] . " alt=\"Intel sok\">";
+        echo "<p>" . $value['ProductName'] . "</p>";
+        echo "<p>" . $value['ProductProperties']['Price'] . "</p>";
+        echo "</div><button class=\"button-overlay\">Go to Product</button></div>";
+    }
+}
+
 function generateProductPage()
 {
     $productArray = getFilterResult();
