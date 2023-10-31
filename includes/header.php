@@ -7,7 +7,7 @@
       loading="lazy"
       src="assets/img/logo/logo.png"
       class="logo"
-    /></a>
+      alt="logo"></a>
     <div class="menu-justify-end">
       <div class="menu-align-stretch">
         <div class="menu-align-flex-start">
@@ -48,7 +48,7 @@
             class="cart-icon"
             id="cart-button"
             onclick="dropdown.style.display = 'block';"
-          />
+            alt="logo">
           </a>
           <div class="cart-count"><?php include('cookie-item-count.php'); echo getCartItemCount(); ?></div>
 

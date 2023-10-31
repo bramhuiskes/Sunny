@@ -27,6 +27,7 @@
           </div>
         </div>
         <section class="buttons-section">
+          <h6>&nbsp;</h6>
           <div class="buttons-container">
             <div class="view-all-button"><a href="product-page.php">view all products</a></div>
             <div class="view-all-divider"></div>
@@ -34,9 +35,9 @@
             <div class="our-collections-button"><a href="collections.php">OUR COLLECTIONS</a></div>
             <div class="our-vision-button">READ OUR VISION FOR A BETTER FUTURE</div>
           </div>
-    </div>  </section>
-
-  </div>
+        </section>
+      </div>
+    </div>
   </div>
   <div class="scroll-section">
     <div class="scroll-inner">
@@ -79,7 +80,9 @@
                       Our New Pink Edition
                     </div>
                     <div class="shop-now-button">
-                      <a href="product-page.php?colorFilter=Pink"><div class="shop-now-text">SHOP NOW</div></a>
+                      <a href="product-page.php?colorFilter=Pink">
+                        <div class="shop-now-text">SHOP NOW</div>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -98,11 +101,13 @@
                   <div class="sale-text-container">
                     <div class="sale-text">
                       Sale
-                      <br />
+                      <br>
                       Up to 50% off
                     </div>
                     <div class="shop-now-button">
-                      <a href="product-page.php"><div class="shop-now-text">SHOP NOW</div></a>
+                      <a href="product-page.php">
+                        <div class="shop-now-text">SHOP NOW</div>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -116,8 +121,8 @@
   <h1>Products</h1>
   <div class="product-container">
     <?php
-      include("product-page-filter-handler.php");
-      generateRandomProducts();
+    include("product-page-filter-handler.php");
+    generateRandomProducts();
     ?>
   </div>
   <div class="values-section">
@@ -148,7 +153,7 @@
                   <img loading="lazy" src="assets/img/svg/arrow.svg" class="arrow" alt="Arrow">
                 </div>
                 <div class="value-description">
-                We like to add some color to one of the the most everyday moments of life: putting on your socks. We add literal color by designing simple basic white socks a pop of color.
+                  We like to add some color to one of the the most everyday moments of life: putting on your socks. We add literal color by designing simple basic white socks a pop of color.
                 </div>
               </div>
             </div>
@@ -161,7 +166,7 @@
                   <img loading="lazy" src="assets/img/svg/arrow.svg" class="arrow" alt="Arrow">
                 </div>
                 <div class="value-description">
-                We like win-win situations. When we produce and sell our socks it is beneficial for everyone involved. The sells person has a nice job. The raw materi- als are gained in such a way it does not harm the earth. The production is done with the enivironment in mind and with an honest waige for the people working in the factories. The shops that sell our sock make a fair provit. And last but not least: the costumer gets high quality socks for a fair price.
+                  We like win-win situations. When we produce and sell our socks it is beneficial for everyone involved. The sells person has a nice job. The raw materi- als are gained in such a way it does not harm the earth. The production is done with the enivironment in mind and with an honest waige for the people working in the factories. The shops that sell our sock make a fair provit. And last but not least: the costumer gets high quality socks for a fair price.
                 </div>
               </div>
             </div>
@@ -169,8 +174,8 @@
         </div>
       </div>
     </div>
-
-    <?php include "./includes/footer.php" ?>
+  </div>
+  <?php include "./includes/footer.php" ?>
 </body>
 
 </html>
