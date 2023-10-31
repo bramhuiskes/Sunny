@@ -16,7 +16,7 @@
             <img src="assets/img/svg/contact-us-arrow.svg" alt="contact-us-arrow.svgs">
         </div>
         <div class="contact-container-right-side">
-            <img src="assets/img/products/Sunny-socks-red.jpg" alt="Sunny-socks-red.jpg" class="sunny-socks-red">
+            <img src="assets/img/products/Sunny-socks-rood.jpg" alt="Sunny-socks-red.jpg" class="sunny-socks-red">
             <img src="assets/img/products/Sunny-socks-uni-green-1.png" alt="Sunny-socks-uni-green-1.png" class="sunny-socks-uni-green-1">
         </div>
     </div>
