@@ -14,7 +14,7 @@
             <p class="question">Have a question?</p>
             <div class="buttons">
                 <div class="button-faq">
-                    <form method="POST" action="#">
+                    <form method="POST" action="faq.php">
                         <input type="submit" name="button-faq" value="Check our FAQ">
                     </form>
                 </div>
