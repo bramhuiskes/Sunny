@@ -136,6 +136,8 @@
             document.getElementById("reloadBtn").click();
         }
     </script>
+        <?php include "./includes/cta.php" ?>
+
     <?php include "./includes/footer.php" ?>
 
 </body>
