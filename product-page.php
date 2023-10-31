@@ -76,10 +76,6 @@
             ?>
         </div>
     </div>
-
-    <?php
-        include "./includes/cta.php"
-    ?>
     <?php
     include "./includes/cta.php";
     include('./includes/footer.php');

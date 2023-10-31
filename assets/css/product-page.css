@@ -27,6 +27,20 @@ form:not(.filter-container) {
     margin-top: 15px;
 }
 
+@media screen and (max-width: 1920px) {
+    .flex-container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin-left: 100px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        max-width: 975px;
+        min-width: 975px;
+    }
+}
+
+@media screen and (min-width: 1921px) {
 .flex-container {
     display: flex;
     flex-wrap: wrap;
@@ -36,6 +50,7 @@ form:not(.filter-container) {
     margin-bottom: 100px;
     max-width: 975px;
     min-width: 975px;
+}
 }
 
 .blur-overlay:hover {

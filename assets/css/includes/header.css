@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "NexaBold";
+    src: url("../../fonts/nexa-bold.otf");
+}
+
 .header {
     background-color: #f0ebe3;
     display: flex;
@@ -97,7 +102,7 @@
     }
     .menu-home {
     color: var(--Main-Orange, #f15a39);
-    font-family: Nexa Bold, sans-serif;
+    font-family: "NexaBold", sans-serif;
     font-size: 13px;
     font-weight: 700;
     line-height: 15.95px;
@@ -112,7 +117,7 @@
     }
     .menu-new-in {
     color: var(--Main-Orange, #f15a39);
-    font-family: Nexa Bold, sans-serif;
+    font-family: "NexaBold", sans-serif;
     font-size: 13px;
     font-weight: 700;
     line-height: 15.95px;
@@ -121,7 +126,7 @@
     }
     .menu-shop-all {
     color: var(--Main-Orange, #f15a39);
-    font-family: Nexa Bold, sans-serif;
+    font-family: "NexaBold", sans-serif;
     font-size: 13px;
     font-weight: 700;
     line-height: 15.95px;
@@ -130,7 +135,7 @@
     }
     .menu-collections {
     color: var(--Main-Orange, #f15a39);
-    font-family: Nexa Bold, sans-serif;
+    font-family: "NexaBold", sans-serif;
     font-size: 13px;
     font-weight: 700;
     line-height: 15.95px;
@@ -139,7 +144,7 @@
     }
     .menu-contact {
     color: var(--Main-Orange, #f15a39);
-    font-family: Nexa Bold, sans-serif;
+    font-family: "NexaBold", sans-serif;
     font-size: 13px;
     font-weight: 700;
     line-height: 15.95px;
@@ -172,7 +177,7 @@
     }
     .cart-count {
     color: var(--Main-Orange, #f15a39);
-    font-family: Nexa Bold, sans-serif;
+    font-family: "NexaBold", sans-serif;
     font-size: 15px;
     font-weight: 700;
     line-height: 27px;
