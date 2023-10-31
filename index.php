@@ -117,6 +117,13 @@
       </div>
     </div>
   </div>
+  <h1>Products</h1>
+  <div class="product-container">
+    <?php
+      include("product-page-filter-handler.php");
+      generateRandomProducts();
+    ?>
+  </div>
   <div class="values-section">
     <div class="values-title-container">
       <div class="values-title">Our Values</div>
