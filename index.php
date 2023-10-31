@@ -130,7 +130,7 @@
               <div class="value-block-title-container">
                 <div class="value-block-title-inner">
                   <div class="value-block-title">Positive</div>
-                  <img loading="lazy" src="assets/img/svg/arrow.svg" class="arrow" />
+                  <img loading="lazy" src="assets/img/svg/arrow.svg" class="arrow" alt="Arrow">
                 </div>
                 <div class="value-description">
                   Positivity is part of our DNA. Sunny likes to look on the
@@ -145,7 +145,7 @@
               <div class="value-block-title-container">
                 <div class="value-block-title-inner">
                   <div class="value-block-title">Colorful</div>
-                  <img loading="lazy" src="assets/img/svg/arrow.svg" class="arrow" />
+                  <img loading="lazy" src="assets/img/svg/arrow.svg" class="arrow" alt="Arrow">
                 </div>
                 <div class="value-description">
                 We like to add some color to one of the the most everyday moments of life: putting on your socks. We add literal color by designing simple basic white socks a pop of color.
@@ -158,7 +158,7 @@
               <div class="value-block-title-container">
                 <div class="value-block-title-inner">
                   <div class="value-block-title">Beneficial</div>
-                  <img loading="lazy" src="assets/img/svg/arrow.svg" class="arrow" />
+                  <img loading="lazy" src="assets/img/svg/arrow.svg" class="arrow" alt="Arrow">
                 </div>
                 <div class="value-description">
                 We like win-win situations. When we produce and sell our socks it is beneficial for everyone involved. The sells person has a nice job. The raw materi- als are gained in such a way it does not harm the earth. The production is done with the enivironment in mind and with an honest waige for the people working in the factories. The shops that sell our sock make a fair provit. And last but not least: the costumer gets high quality socks for a fair price.
