@@ -18,8 +18,8 @@
     </div>
         
     <div class="accordion">
-        <div class="header-div">
-            <h2 class="header">FAQ's</h2>
+        <div class="heading-div">
+            <h2 class="heading">FAQ's</h2>
         </div>
         <div class="box">
             <div class="label">How long does the shipping takes?</div>
