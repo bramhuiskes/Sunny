@@ -21,7 +21,7 @@
             </a>       
          </div>
         <div class="card-2">
-            <p class="text">Gestreepd</p>
+            <p class="text">Gestreept</p>
             <a href="product-page.php?collection=Stripes">
             <button class="explore-button">Ontdek</button>
             </a>
