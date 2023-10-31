@@ -42,28 +42,26 @@
   <div class="scroll-section">
     <div class="scroll-inner">
       <div class="scroll-semi-container scroll-container">
-        <div class="scroll-item"></div>
-        <div class="scroll-item">WORLDWIDE SHIPPING</div>
-        <div class=" scroll-item"></div>
-        <div class="scroll-item">WORLDWIDE SHIPPING</div>
-        <div class=" scroll-item"></div>
-        <div class=" scroll-item">WORLDWIDE SHIPPING</div>
-        <div class=" scroll-item"></div>
-        <div class=" scroll-item">WORLDWIDE SHIPPING</div>
-        <div class=" scroll-item"></div>
-        <div class=" scroll-item">WORLDWIDE SHIPPING</div>
-        <div class=" scroll-item"></div>
-        <div class=" scroll-item">WORLDWIDE SHIPPING</div>
-        <div class=" scroll-item"></div>
-        <div class=" scroll-item">WORLDWIDE SHIPPING</div>
-        <div class=" scroll-item"></div>
-        <div class=" scroll-item">WORLDWIDE SHIPPING</div>
-        <div class=" scroll-item"></div>
-        <div class=" scroll-item">WORLDWIDE SHIPPING</div>
-        <div class=" scroll-item"></div>
-        <div class=" scroll-item">WORLDWIDE SHIPPING</div>
-        <div class=" scroll-item"></div>
-        <div class=" scroll-item">WORLDWIDE SHIPPING</div>
+        <div class="scroll-item">-</div>
+        <div class="scroll-item text">WORLDWIDE SHIPPING</div>
+        <div class="scroll-item">-</div>
+        <div class="scroll-item text">WORLDWIDE SHIPPING</div>
+        <div class="scroll-item">-</div>
+        <div class="scroll-item text">WORLDWIDE SHIPPING</div>
+        <div class="scroll-item">-</div>
+        <div class="scroll-item text">WORLDWIDE SHIPPING</div>
+        <div class="scroll-item">-</div>
+        <div class="scroll-item text">WORLDWIDE SHIPPING</div>
+        <div class="scroll-item">-</div>
+        <div class="scroll-item text">WORLDWIDE SHIPPING</div>
+        <div class="scroll-item">-</div>
+        <div class="scroll-item text">WORLDWIDE SHIPPING</div>
+        <div class="scroll-item">-</div>
+        <div class="scroll-item text">WORLDWIDE SHIPPING</div>
+        <div class="scroll-item">-</div>
+        <div class="scroll-item text">WORLDWIDE SHIPPING</div>
+        <div class="scroll-item">-</div>
+
       </div>
     </div>
     <div class="blocks-section">
@@ -116,6 +114,13 @@
         </div>
       </div>
     </div>
+  </div>
+  <h1>Products</h1>
+  <div class="product-container">
+    <?php
+      include("product-page-filter-handler.php");
+      generateRandomProducts();
+    ?>
   </div>
   <div class="values-section">
     <div class="values-title-container">
