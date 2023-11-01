@@ -41,7 +41,7 @@
           </div>
         </div>
         <div class="lang-change">
-          <a href="../Sunny/SunnyNL/">NL|EN</a>
+          <a href="../">NL|EN</a>
         </div>
         <div class="cart" >
           <a href="./shopping-cart.php">
