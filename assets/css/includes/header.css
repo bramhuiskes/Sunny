@@ -10,7 +10,8 @@
     align-items: center;
 }
 
-.lang-change a {
+.menu-container div:nth-child(2){
+    font-weight: 70;
 }
 
 .header {
