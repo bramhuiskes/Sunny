@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sunny | Collections</title>
     <link rel="stylesheet" href="./assets/css/collections.css">
+    <link rel="icon" href="./assets/img/favicon/favicon.png" type="image/png">
 
     <link rel="stylesheet" href="./assets/css/style.css" type="text/css">
 </head>

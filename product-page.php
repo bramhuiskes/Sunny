@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="assets/css/product-page.css">
     <link rel="stylesheet" href="./assets/css/style.css" type="text/css">
     <script src="./assets/js/product-page.js"></script>
+    <link rel="icon" href="./assets/img/favicon/favicon.png" type="image/png">
+
 </head>
 <body>
     <?php
