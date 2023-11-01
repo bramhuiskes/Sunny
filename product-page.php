@@ -70,7 +70,7 @@
         </div>
         <div class="flex-container">
             <?php
-            include('product-page-filter-handler.php');
+            include('./includes/product-page-filter-handler.php');
             generateProductPage();
             generatePaging();
             ?>
