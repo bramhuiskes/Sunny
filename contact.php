@@ -17,6 +17,8 @@
     <link rel="stylesheet" href="assets/css/contact.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Sunny | Contact us</title>
+    <link rel="icon" href="./assets/img/favicon/favicon.png" type="image/png">
+
 </head>
 <body>
     <?php include "./includes/header.php" ?>

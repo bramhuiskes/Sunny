@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./assets/css/faq.css">
 
     <link rel="stylesheet" href="./assets/css/style.css" type="text/css">
+    <link rel="icon" href="./assets/img/favicon/favicon.png" type="image/png">
 
 </head>
 <body>

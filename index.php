@@ -8,6 +8,8 @@
   <link href="assets/css/includes/header.css" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/homepage.css">
   <script src="./assets/js/product-page.js"></script>
+  <link rel="icon" href="./assets/img/favicon/favicon.png" type="image/png">
+
 
 </head>
 
