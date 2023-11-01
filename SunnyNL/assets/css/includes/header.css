@@ -97,6 +97,7 @@
     display: flex;
     justify-content: space-between;
     gap: 6px;
+    margin: auto;
     }
     .menu-border {
     border-radius: 4px;
