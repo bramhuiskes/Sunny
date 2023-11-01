@@ -27,7 +27,7 @@
             <div class="label">How can I return the items?</div>
             <div class="content">
                 <p>You can return your items by sending us an E-mail with the information why you want to return the items,
-                    en with your personal informtation and ordernumber. After you did that we try to contact you as soon as possible
+                    and with your personal information and order number. After you did that we will try to contact you as soon as possible
                     to complete the return.
                 </p>
             </div>
@@ -39,24 +39,24 @@
             </div>
         </div>
         <div class="box">
-            <div class="label">How can I get in contact with the customer service</div>
+            <div class="label">How can I get in contact with the customer service?</div>
             <div class="content">
-                <p>The fastest way to get in contact with us is by going to the contact page, there you need to
-                    fill in your E-mail en typ the message you want to send. An other way is to go to our socials 
-                    en send your message there.
+                <p>The fastest way to contact us is by going to the contact page, there you need to
+                    fill in your E-mail and type the message you want to send. Another way is to go to our socials 
+                    and send your message there.
                 </p>
             </div>
         </div>
         <div class="box">
-            <div class="label">What does shipping cost?</div>
+            <div class="label">What are the shipping cost?</div>
             <div class="content">
                 <p>The shipping costs for all our products are €4,99.</p>
             </div>
         </div>
         <div class="box">
-            <div class="label">Where are the socks made of?</div>
+            <div class="label">What are the socks made of?</div>
             <div class="content">
-                <p>Our socks are made of 100% organic cotton.</p>
+                <p>Our socks are made out of 100% organic cotton.</p>
             </div>
         </div>
     </div>
