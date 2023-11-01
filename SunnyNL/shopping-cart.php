@@ -29,7 +29,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sunny | Winkel wagen</title>
+    <title>Sunny | Shopping Cart</title>
     <link rel="stylesheet" href="./assets/css/shopping-cart.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="icon" href="./assets/img/favicon/favicon.png" type="image/png">
@@ -91,17 +91,14 @@
                     
                 }
 
-                echo "<input value=\"&#8634; Bewaar producten\" type=\"submit\" class=\"reload-btn\" id=\"reloadBtn\">
+                echo "<input value=\"&#8634; Producten opslaan\" type=\"submit\" class=\"reload-btn\" id=\"reloadBtn\">
                 </form>
                 <p>Oude prijs: 
                     <b style=\"text-decoration: line-through;\">"."€".  $price . "</b>
                 </p>";
 
                 $discount = $price/11.97;
-                if(floor($discount) != $discount)
-                {
-                    $discount -= 1;
-                }
+                $discount = floor($discount);
                 $discount = ((((int)round($discount)))*1.98);   
                 $price -= $discount;
                 if($price == 0)
@@ -113,9 +110,8 @@
                 echo "<p>Korting: <b> €". (($discount!=0.00)?$arr_discount[0]:"0").".".(($discount!=0.00)?substr(strval($arr_discount[1]),0,2):"0")."</b></p>";
                 echo "<div class=\"btn-div\">
                     <a href=\"#\" class=\"shop\">Verder winkelen</a>
-                    <a href=\"#\" class=\"submit\">Verder naar bestellen</a>
+                    <a href=\"#\" class=\"submit\">Betalen</a>
                 </div>";
-
                 echo "</div>";
             } 
             else 
@@ -123,7 +119,7 @@
                 echo "
                 <div class=\"shopping-cart empty\">
                     <h1>
-                        Winkel wagen is leeg
+                        Uw winkelwagen is leeg
                     </h1>
                     <a href=\"index.php\" class=\"btn\">
                         GA TERUG NAAR WINKEL
@@ -143,5 +139,6 @@
         <?php include "./includes/cta.php" ?>
 
     <?php include "./includes/footer.php" ?>
+
 </body>
 </html>
