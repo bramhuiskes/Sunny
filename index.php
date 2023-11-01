@@ -121,7 +121,7 @@
   <h1>Products</h1>
   <div class="product-container">
     <?php
-    include("product-page-filter-handler.php");
+    include('./includes/product-page-filter-handler.php');
     generateRandomProducts();
     ?>
   </div>
