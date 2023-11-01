@@ -10,8 +10,9 @@
     align-items: center;
 }
 
-.menu-container div:nth-child(2){
+.menu-container div{
     font-weight: 70;
+    margin: auto;
 }
 
 .header {
