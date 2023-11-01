@@ -51,11 +51,9 @@ body{
 .product-total{
     display: flex;
 }
-.main-product{
-    padding: 2em 8em;
-}
+
 .main-product img{
-    width: 250px;
+    width: 100%;
 }
 .main-product{
     border: 2px solid grey;
@@ -68,6 +66,7 @@ body{
     display: flex;
     gap: 1em;
     flex-direction: column;
+    min-width: 400px;
 }
 .product-detail-btn{
     display: flex;
