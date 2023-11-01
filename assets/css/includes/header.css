@@ -1,6 +1,16 @@
 @font-face {
     font-family: "NexaBold";
     src: url("../../fonts/nexa-bold.otf");
+    font-weight: 700;
+}
+
+.lang-change{
+    display: flex;
+    text-align: center;height: 100%;
+    align-items: center;
+}
+
+.lang-change a {
 }
 
 .header {

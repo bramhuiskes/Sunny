@@ -40,6 +40,9 @@
           <div class="menu-contact"><a href=./contact.php>CONTACT US</a></div>
           </div>
         </div>
+        <div class="lang-change">
+          <a href="../Sunny/SunnyNL/">NL|EN</a>
+        </div>
         <div class="cart" >
           <a href="./shopping-cart.php">
           <img
