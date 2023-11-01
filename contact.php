@@ -1,3 +1,14 @@
+<?php
+    if(isset($_GET['status'])){
+        if($_GET['status'] != 'correct'){
+            echo"<script>alert('Error 400')</script>";
+        }
+        else{
+            echo"<script>alert('Your mail was sent successfully')</script>";
+        }
+    }
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,18 +31,20 @@
             <img src="assets/img/products/Sunny-socks-uni-green-1.png" alt="Sunny-socks-uni-green-1.png" class="sunny-socks-uni-green-1">
         </div>
     </div>
-    <div class="contact-message-container">
-        <p class="send-message">Send us a message</p>
-        <p class="send-message-text">Justo elitr honestatis his id, et singulis molestiae sit.</p>
-        <div class="input-container">
-            <div class="contact-name-email">
-                <input type="text" name="name" placeholder="Name" class="contact-name" required>
-                <input type="text" name="email" placeholder="E-mail" class="contact-email" required>
+    <form action="./includes/contact-handler.php" method="post">
+        <div class="contact-message-container">
+            <p class="send-message">Send us a message</p>
+            <p class="send-message-text">Justo elitr honestatis his id, et singulis molestiae sit.</p>
+            <div class="input-container">
+                <div class="contact-name-email">
+                    <input type="text" name="name" placeholder="Name" class="contact-name" required>
+                    <input type="text" name="email" placeholder="E-mail" class="contact-email" required>
+                </div>
+                <textarea name="message" cols="30" rows="10" placeholder="Type your message here" class="contact-message"></textarea>
+                <input type="submit" name="message" class="contact-submit" value="Send message">
             </div>
-            <textarea name="message" cols="30" rows="10" placeholder="Type your message here" class="contact-message"></textarea>
-            <input type="submit" name="message" class="contact-submit" value="Send message">
         </div>
-    </div>
+    </form>
     <?php include "./includes/cta.php" ?>
     <?php include "./includes/footer.php" ?>
 </body>
