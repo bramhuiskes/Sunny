@@ -8,7 +8,7 @@ function generateRandomProducts(){
         echo "<div class=\"product\"><div class=\"blur-overlay\" onclick=\"redirectToProduct(" . $value['ProductID'] . ")\"><img src=" . $value['ProductThumbnail'] . " alt=\"Intel sok\">";
         echo "<p>" . $value['ProductName'] . "</p>";
         echo "<p>" . $value['ProductProperties']['Price'] . "</p>";
-        echo "</div><button class=\"button-overlay\">Go to Product</button></div>";
+        echo "</div><button class=\"button-overlay\">Ga naar product</button></div>";
     }
 }
 
@@ -28,7 +28,7 @@ function generateProductPage()
             echo "<div class=\"product\"><div class=\"blur-overlay\" onclick=\"redirectToProduct(" . $value['ProductID'] . ")\"><img src=" . $value['ProductThumbnail'] . " alt=\"Intel sok\">";
             echo "<p>" . $value['ProductName'] . "</p>";
             echo "<p>" . $value['ProductProperties']['Price'] . "</p>";
-            echo "</div><button class=\"button-overlay\">Go to Product</button></div>";
+            echo "</div><button class=\"button-overlay\">Ga naar product</button></div>";
         }
 }
 
