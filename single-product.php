@@ -1,13 +1,21 @@
 <?php
+//include the set-cookie file 
 include "./includes/set-cookie.php";
+
+//Check if productkey is not available in the head. If not available, then return to product-page.php
 if(!isset($_GET['product-key'])){
     header("location: product-page.php");
 }
+//Check if server is a requestmethod.
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
+
+    //Returns in the set-cookie.php file
     addShoppingCart($_GET['product-key'], ((int) $_POST['amount']));
 
+    //Message (doesn't work anymore)
     $added = "Item added to shoppingcart";
 
+    //Load the page again without a post request so the shopping cart counter in the header will count your recently added items.
     header("location: single-product.php?product-key=".$_GET['product-key']."&timeadded=".date("h:i:sa"));
 }
 ?>
@@ -25,6 +33,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <body>
     <?php include "./includes/header.php";
 
+    //The message (Doesn't work anymore)
     if (isset($added)) {
         echo "<div class=\"messageShoppingcart active\">
                 <p>{$added}</p>
@@ -35,15 +44,22 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <div class="container">
             <div class="product-total">
                 <?php
+                
+                //Get the json file and decode it
                 $json_file = file_get_contents('./assets/json/products.json');
                 $products = json_decode($json_file, true);
                 $imgUrl = "";
                 $img2Url = "";
                 $productName = "";
+
+                //Get all products available and loop through it
                 foreach ($products as $key => $value) {
+                    //if the productkey is the key what is in the URL
                     if ($_GET['product-key'] == $key) {
+                        //Get items from the json file with the correct ID
                         $productName = $products[$key]["ProductName"];
                         $imgUrl = $products[$key]["ProductThumbnail"];
+                        //Generate img url
                         $img2Url = "./assets/img/products/Sunny-socks" . (($products[$key]["ProductProperties"]["Collection"] != "Stripes") ? "-uni" : "") .  "-" . strtolower($products[$key]["ProductProperties"]["Color"]) . ".jpg";
                     }
                 }
