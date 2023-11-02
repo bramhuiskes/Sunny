@@ -131,7 +131,7 @@
                 $arr_discount = explode(".",$discount);
                 echo "<p>Discount: <b> €". (($discount!=0.00)?$arr_discount[0]:"0").".".(($discount!=0.00)?substr(strval($arr_discount[1]),0,2):"0")."</b></p>";
                 echo "<div class=\"btn-div\">
-                    <a href=\"#\" class=\"shop\">Shop more</a>
+                    <a href=\"product-page.php\" class=\"shop\">Shop more</a>
                     <a href=\"#\" class=\"submit\">Checkout</a>
                 </div>";
                 echo "</div>";

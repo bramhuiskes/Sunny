@@ -82,7 +82,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                             <div class="counter">
                                 <button type="button" onclick="min()">-</button>
                                 <div class="number">
-                                    <input class="input-number" type="text" name="amount" value="1" id="amount">
+                                    <input class="input-number" type="number" name="amount" value="1" id="amount">
                                 </div>
                                 <button type="button" onclick="plus()">+</button>
                             </div>
