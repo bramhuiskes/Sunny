@@ -6,7 +6,8 @@
     height: 761px;
     margin-top: 50px;
     display: flex;
-    margin-bottom: 100px
+    margin-bottom: 100px;
+    margin-left: 40px;
 }
 .contact-container-left-side{
     margin-left: 5%;
@@ -29,7 +30,7 @@
     position: relative;
 }
 .contact-container-right-side{
-    margin-left: 200px;
+    margin-left: 175px;
     display: flex;
 }
 .contact-container-right-side .sunny-socks-red{
@@ -44,7 +45,7 @@
 .contact-message-container{
     display: flex;
     background-color: #212A17;
-    margin-left: 50px;
+    margin-left: 75px;
     width: 1400px;
     height: 700px;
     flex-direction: column;
