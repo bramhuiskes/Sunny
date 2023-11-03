@@ -1,3 +1,14 @@
+<?php
+    if(isset($_GET['status'])){
+        if($_GET['status'] != 'correct'){
+            echo"<script>alert('Error 400')</script>";
+        }
+        else{
+            echo"<script>alert('Uw mail is verstuurd')</script>";
+        }
+    }
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,6 +16,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/contact.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" href="./assets/img/favicon/favicon.png" type="image/png">
     <title>Sunny | Neem contact</title>
 </head>
 <body>
@@ -20,18 +32,20 @@
             <img src="assets/img/products/Sunny-socks-uni-green-1.png" alt="Sunny-socks-uni-green-1.png" class="sunny-socks-uni-green-1">
         </div>
     </div>
-    <div class="contact-message-container">
-        <p class="send-message">Stuur ons een bericht</p>
-        <p class="send-message-text">Justo elitr honestatis his id, et singulis molestiae sit.</p>
-        <div class="input-container">
-            <div class="contact-name-email">
-                <input type="text" name="name" placeholder="Naam" class="contact-name" required>
-                <input type="text" name="email" placeholder="E-mail" class="contact-email" required>
+    <form action="./includes/contact-handler.php" method="post">
+        <div class="contact-message-container">
+            <p class="send-message">Stuur ons een bericht</p>
+            <p class="send-message-text">Justo elitr honestatis his id, et singulis molestiae sit.</p>
+            <div class="input-container">
+                <div class="contact-name-email">
+                    <input type="text" name="name" placeholder="Naam" class="contact-name" required>
+                    <input type="text" name="email" placeholder="E-mail" class="contact-email" required>
+                </div>
+                <textarea name="message" cols="30" rows="10" placeholder="Type je bericht hier" class="contact-message"></textarea>
+                <input type="submit" name="message" class="contact-submit" value="Verstuur">
             </div>
-            <textarea name="message" cols="30" rows="10" placeholder="Type je bericht hier" class="contact-message"></textarea>
-            <input type="submit" name="message" class="contact-submit" value="Verstuur">
         </div>
-    </div>
+    </form>
     <?php include "./includes/cta.php" ?>
     <?php include "./includes/footer.php" ?>
 </body>

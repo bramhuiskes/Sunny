@@ -1,6 +1,6 @@
 <?php
 // Required variables for the contact page.
-$req_var = array("name", "email", "subject", "type", "message", "newsletter");
+$req_var = array("name", "email", "message");
 
 // Array with sanitized data.
 $san_arr = array();
@@ -10,7 +10,7 @@ for($i = 0; $i < count($req_var); $i++){
     if(!isset($_POST[$req_var[$i]]))
     {
         http_response_code(403);
-        header("Location: ./Contact.php?httpCode=403");
+        header("Location: ../Contact.php?status=failed");
         Die();
     }
     else{
@@ -33,6 +33,6 @@ session_start();
 
 $_SESSION['contactData'] = $san_arr;
 
-header('Location: ./previewMail.php');
+header('Location: ../contact.php?status=correct');
 
 ?>
