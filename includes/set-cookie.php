@@ -1,6 +1,4 @@
 <?php
-    
-
     //If the shopping cart has been changed. I don't use this anymore.
     function shoppingCartChanged()
     {
@@ -24,7 +22,7 @@
                 } 
             }
         } 
-        catch (e)
+        catch (Exception)
         {
             echo "er is een fout opgetreden";
         }
@@ -52,7 +50,7 @@
             //set the cookie
             setcookie($cookie_name,json_encode($cookie_array), time() + (86400 * 30), "/");
         } 
-        catch (e)
+        catch (Exception)
         {
             echo "er is een fout opgetreden";
         }

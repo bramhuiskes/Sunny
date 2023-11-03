@@ -8,7 +8,7 @@
     src: url(../fonts/nexa-bold.otf);
 }
 
-form:not(.filter-container) {
+form:not(.filter-container, .button-faq form, .button-contact form) {
     margin-right: 50px;
     width: 150px;
     height: 40px;

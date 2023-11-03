@@ -1,3 +1,9 @@
+<?php
+    if(isset($_POST['wws'])){
+      setcookie("wwsCookie", true, 0);
+      header("index.php");
+  }
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,13 +13,20 @@
   <title>Sunny | Home</title>
   <link href="assets/css/includes/header.css" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/homepage.css">
+  <link rel="stylesheet" href="assets/css/includes/PopUp1.css">
   <script src="./assets/js/product-page.js"></script>
   <link rel="icon" href="./assets/img/favicon/favicon.png" type="image/png">
-
-
 </head>
 
 <body>
+  <?php
+  if (!isset($_POST['wws'])) {
+    if (!isset($_COOKIE['wwsCookie'])) {
+      echo "<div class=\"pop-up-overlay\" id=\"pop-overlay\">", include("./includes/PopUp1.php"), "</div>";
+    }
+  }
+  ?>
+
   <?php include "./includes/header.php" ?>
   <div class="slogan-container">
     <div class="feel-good-text">FEEL GOOD</div>
@@ -35,7 +48,7 @@
             <div class="view-all-divider"></div>
             <div class="our-collections-divider"></div>
             <div class="our-collections-button"><a href="collections.php">OUR COLLECTIONS</a></div>
-            <div class="our-vision-button">READ OUR VISION FOR A BETTER FUTURE</div>
+            <div class="our-vision-button"><a href="#values">READ OUR VISION FOR A BETTER FUTURE</a></div>
           </div>
         </section>
       </div>
@@ -127,7 +140,7 @@
     generateRandomProducts();
     ?>
   </div>
-  <div class="values-section">
+  <div class="values-section" id="values">
     <div class="values-title-container">
       <div class="values-title">Our Values</div>
       <div class="values-container">
