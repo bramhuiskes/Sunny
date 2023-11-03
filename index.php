@@ -22,7 +22,9 @@
   <?php
   if (!isset($_POST['wws'])) {
     if (!isset($_COOKIE['wwsCookie'])) {
-      echo "<div class=\"pop-up-overlay\" id=\"pop-overlay\">", include("./includes/PopUp1.php"), "</div>";
+      echo "<div class=\"pop-up-overlay\" id=\"pop-overlay\">";
+      include("./includes/PopUp1.php");
+      echo "</div>";
     }
   }
   ?>
